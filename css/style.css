@@ -1,0 +1,94 @@
+/*
+Colors used:
+Primary Color 1 (Green): #8ebc8d;
+Primary Color 2 (lighter green): #e8eee2;
+*/
+
+body {
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.25;   /* Sets the line-height to 1.25 * the font-size = 20px */
+  color: #000000;
+}
+
+body2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* Headlines */
+
+h1, h2, h3, h4 {
+  line-height: 2.25;
+}
+h1 {
+  line-height: 1.25;
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+}
+
+h2 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+
+/* Links */
+
+a {
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none; /* No underlining */
+}
+
+a:hover,
+a:focus {
+  font-weight: 400;
+  color: #979797;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+a:active { /* selected link */
+  color: #8EBC8D;
+}
+
+/* Others */
+
+img {
+  width: 100%;
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #8EBC8D;
+  color: #ffffff; /* needed to override the default link color */
+  font-weight: 500;
+  padding: 12px 28px 12px 28px;
+  border-radius: 16px;
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #B3D6B2;
+  text-decoration: none;
+}
+
+.button:active{
+  background-color: #69A468;
+}
