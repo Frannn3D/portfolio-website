@@ -27,15 +27,61 @@ body {
 }
 
 
-
-
 header {
-
+  text-align: center;
+  padding: 10px 0;
 }
 
-.skills {
-  font-style: italic;
-  color: #898D89;
+/* Links */
+
+a {
+  font-weight: 400;
+  color: #000000;
+  text-decoration: none; /* No underlining */
+}
+
+a:hover,
+a:focus {
+  font-weight: 400;
+  color: #979797;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+a:active { /* selected link */
+  color: #8EBC8D;
+}
+
+/* Navigation bar Links */
+
+nav{
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  font-weight: 300;
+  padding: 0 15px;
+}
+
+nav > ul > li > a:hover {
+  font-weight: 300;
+}
+
+nav > ul > li > a:focus {
+  font-weight: 300;
+}
+
+nav > ul > li > a:active {
+  font-weight: 300;
 }
 
 /* Headlines */
@@ -75,31 +121,14 @@ h4 {
   text-align: center;
 }
 
-/* Links */
 
-a {
-  font-weight: 400;
-  color: #000000;
-  text-decoration: none; /* No underlining */
-}
 
-a:hover,
-a:focus {
-  font-weight: 400;
-  color: #979797;
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
-
-a:active { /* selected link */
-  color: #8EBC8D;
+.skills {
+  font-style: italic;
+  color: #898D89;
 }
 
 /* Sections ids required by the task instructions*/
-
-
-
-
-
 
 #introduction {
 
@@ -120,7 +149,7 @@ img {
 }
 
 .logo {
-  width: 150px;
+  max-width: 150px;
 }
 
 .profile {
