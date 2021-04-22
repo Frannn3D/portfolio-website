@@ -14,10 +14,9 @@ body {
   color: #000000;
 }
 
-body2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+.skills {
+  font-style: italic;
+  color: #898D89;
 }
 
 /* Headlines */
@@ -30,7 +29,7 @@ h1 {
   line-height: 1.25;
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   font-size: 3em;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 h2 {
@@ -48,6 +47,10 @@ h4 {
   font-weight: 500;
 }
 
+.intro-desc {
+  font-weight: 100;
+  color: #898D89;
+}
 
 /* Links */
 
@@ -68,11 +71,43 @@ a:active { /* selected link */
   color: #8EBC8D;
 }
 
-/* Others */
+/* Sections ids required by the task instructions*/
+
+#hero {
+
+}
+
+#work {
+
+}
+
+#introduction {
+
+}
+
+#skills-tools {
+
+}
+
+#tools-i-use {
+
+}
+
+/* Images */
 
 img {
   width: 100%;
 }
+
+.logo {
+  width: 150px;
+}
+
+.profile {
+  width: 300px;
+}
+
+/* Buttons */
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
