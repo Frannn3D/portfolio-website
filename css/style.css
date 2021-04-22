@@ -148,7 +148,8 @@ img {
   width: 100%;
 }
 
-.logo {
+picture .logo {
+  padding: 26px 0;
   max-width: 150px;
 }
 
