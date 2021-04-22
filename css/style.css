@@ -4,6 +4,9 @@ Primary Color 1 (Green): #8ebc8d;
 Primary Color 2 (lighter green): #e8eee2;
 */
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #FFFFFF;
@@ -12,6 +15,15 @@ body {
   font-weight: 300;
   line-height: 1.25;   /* Sets the line-height to 1.25 * the font-size = 20px */
   color: #000000;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+header {
+
 }
 
 .skills {
