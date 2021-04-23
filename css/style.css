@@ -14,7 +14,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.25;   /* Sets the line-height to 1.25 * the font-size = 20px */
-  color: #000000;
+  color: #323A30;
 }
 
 /* Layout styling */
@@ -36,11 +36,11 @@ main {
 }
 
 .container {
-  padding: 0 15px;
+  padding: 0 24px;
 }
 
 .row {
-  margin: 28px 0; /* 25px top and bottom, 0 left and right */
+  margin: 48px 0; /* 25px top and bottom, 0 left and right */
 }
 
 
@@ -103,6 +103,7 @@ nav > ul > li > a:active {
 
 h1, h2, h3, h4 {
   line-height: 1.25;
+  margin: 0;
 }
 
 h1 {
@@ -120,7 +121,9 @@ h2 {
 
 h3 {
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 12px;
 }
 h4 {
   font-size: 1.25em;
@@ -137,19 +140,45 @@ h4 {
 }
 
 #hero h1 {
-  margin: 0;
   text-align: center;
-  padding: 40px 0 32px 0;
+  padding: 40px 0 60px 0;
 }
 
+footer {
+  text-align: center;
+  background-color: #E8EEE2;
+  padding: 32px 0 12px 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 24px 0;
+}
 
 
 .skills {
   font-style: italic;
   color: #898D89;
+  margin-top: 12px;
+  margin-bottom: 40px;
 }
 
 /* Sections ids required by the task instructions*/
+#work h2{
+  margin-bottom: 32px;
+}
+
+#work button {
+  margin-bottom: 48px;
+}
+
+#work img {
+  border-radius: 16px;
+}
+
+#work {
+  padding-bottom: 8px;
+}
 
 #introduction {
 
@@ -205,7 +234,10 @@ picture .logo {
   background-color: transparent;
   color: #8EBC8D;
   border: 3px solid #8EBC8D;
+  margin-bottom: 28px;
 }
+
+
 
 .button.contact:hover {
   color: #B3D6B2;
