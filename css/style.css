@@ -2,6 +2,7 @@
 Colors used:
 Primary Color 1 (Green): #8ebc8d;
 Primary Color 2 (lighter green): #e8eee2;
+Layout colour - almost black: 323A30;
 */
 
 * {
@@ -15,6 +16,11 @@ body {
   font-weight: 300;
   line-height: 1.25;   /* Sets the line-height to 1.25 * the font-size = 20px */
   color: #323A30;
+}
+
+.body2{
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Layout styling */
@@ -39,8 +45,16 @@ main {
   padding: 0 24px;
 }
 
-.row {
-  margin: 48px 0; /* 25px top and bottom, 0 left and right */
+
+footer {
+  text-align: center;
+  background-color: #E8EEE2;
+  padding: 32px 0 12px 0;
+}
+
+footer p {
+  margin: 0;
+  padding: 24px 0;
 }
 
 
@@ -82,6 +96,7 @@ nav > ul > li {
   display: inline-block;
 }
 
+
 nav > ul > li > a {
   font-weight: 300;
   padding: 0 15px;
@@ -110,13 +125,13 @@ h1 {
   line-height: 1.25;
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 h2 {
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h3 {
@@ -130,9 +145,15 @@ h4 {
   font-weight: 500;
 }
 
+/*  intro.hmtl  */
+
 .intro-desc {
-  font-weight: 100;
-  color: #898D89;
+  font-weight: 400;
+  color: #000000;
+}
+
+.row {
+  margin: 48px 0; /* 25px top and bottom, 0 left and right */
 }
 
 #hero{
@@ -144,26 +165,6 @@ h4 {
   padding: 40px 0 60px 0;
 }
 
-footer {
-  text-align: center;
-  background-color: #E8EEE2;
-  padding: 32px 0 12px 0;
-}
-
-footer p {
-  margin: 0;
-  padding: 24px 0;
-}
-
-
-.skills {
-  font-style: italic;
-  color: #898D89;
-  margin-top: 12px;
-  margin-bottom: 40px;
-}
-
-/* Sections ids required by the task instructions*/
 #work h2{
   margin-bottom: 32px;
 }
@@ -178,6 +179,20 @@ footer p {
 
 #work {
   padding-bottom: 8px;
+}
+
+
+.skills {
+  font-style: italic;
+  color: #898D89;
+  margin-top: 12px;
+  margin-bottom: 40px;
+}
+
+/* Sections ids*/
+
+#about-pic {
+  padding:
 }
 
 #introduction {
@@ -236,7 +251,6 @@ picture .logo {
   border: 3px solid #8EBC8D;
   margin-bottom: 28px;
 }
-
 
 
 .button.contact:hover {
