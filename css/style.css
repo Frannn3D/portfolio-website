@@ -45,6 +45,11 @@ main {
   padding: 0 24px;
 }
 
+p {
+  padding: 12px 0 0 0;
+  margin: 0;
+}
+
 
 footer {
   text-align: center;
@@ -81,7 +86,7 @@ a:active { /* selected link */
 
 /* Navigation bar Links */
 
-nav{
+nav {
   display: inline-block;
   width: 100%;
 }
@@ -126,23 +131,25 @@ h1 {
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   font-size: 3em;
   font-weight: 200;
+  margin: 40px 0 20px 0;
 }
 
 h2 {
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   font-size: 2em;
   font-weight: 400;
+  padding: 20px 0 16px 0;
 }
 
 h3 {
   font-size: 1.5em;
-  font-weight: 500;
-  margin-top: 16px;
-  margin-bottom: 12px;
+  font-weight: 400;
+  padding: 12px 0;
 }
 h4 {
   font-size: 1.25em;
   font-weight: 500;
+  padding: 8px 0;
 }
 
 .overline {
@@ -162,21 +169,22 @@ h4 {
 }
 
 .row {
-  margin: 48px 0; /* 25px top and bottom, 0 left and right */
+  margin: 0px 0; /* 25px top and bottom, 0 left and right */
+}
+
+.section {
+  margin: 24px 0 20px 0;
 }
 
 #hero{
-  padding: 40px 0;
+  padding: 0px 0;
 }
 
 #hero h1 {
   text-align: center;
-  padding: 40px 0 60px 0;
+  padding: 20px 0 60px 0;
 }
 
-#work h2{
-  margin-bottom: 32px;
-}
 
 #work button {
   margin-bottom: 48px;
@@ -184,18 +192,20 @@ h4 {
 
 #work img {
   border-radius: 16px;
+  padding: 16px 0 4px 0;
 }
 
 #work {
   padding-bottom: 8px;
 }
 
+#project .container {
+  padding: 24px 24px 32px 24px;
+}
 
 .skills {
   font-style: italic;
   color: #898D89;
-  margin-top: 12px;
-  margin-bottom: 40px;
 }
 
 /* Sections ids*/
@@ -239,6 +249,7 @@ picture .logo {
   color: #ffffff; /* needed to override the default link color */
   font-weight: 500;
   padding: 12px 28px;
+  margin: 40px 0 48px 0;
   border-radius: 16px;
   transition: 0.2s opacity;
 }
@@ -260,6 +271,7 @@ picture .logo {
   border: 3px solid #8EBC8D;
   margin-bottom: 28px;
 }
+
 
 
 .button.contact:hover {
