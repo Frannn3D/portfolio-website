@@ -208,6 +208,16 @@ h4 {
   color: #898D89;
 }
 
+.white-box {
+  background-color: #FFFFFF;
+  padding: 16px 12px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+
 /* Sections ids*/
 
 #about-pic {
@@ -239,6 +249,10 @@ picture .logo {
 
 .profile {
   width: 300px;
+}
+
+.yellow {
+  background-color: #FAF9F0;
 }
 
 /* Buttons */
