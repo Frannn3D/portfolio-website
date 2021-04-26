@@ -199,14 +199,18 @@ h4 {
   padding-bottom: 8px;
 }
 
-#project .container {
-  padding: 24px 24px 32px 24px;
-}
-
 .skills {
   font-style: italic;
   color: #898D89;
 }
+
+/*   Project  */
+
+#project .container {
+  padding: 24px 24px 32px 24px;
+}
+
+
 
 .white-box {
   background-color: #FFFFFF;
