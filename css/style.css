@@ -218,23 +218,21 @@ h4 {
 }
 
 
-/* Sections ids*/
+/*  About page  */
 
 #about-pic {
-  padding:
+  text-align: center;
+  padding: 48px 0 12px 0;
 }
 
-#introduction {
-
+.profile {
+  width: 168px;
 }
 
 #skills-tools {
-
+  margin-bottom: 48px;
 }
 
-#tools-i-use {
-
-}
 
 /* Images */
 
@@ -247,9 +245,6 @@ picture .logo {
   max-width: 150px;
 }
 
-.profile {
-  width: 300px;
-}
 
 .yellow {
   background-color: #FAF9F0;
