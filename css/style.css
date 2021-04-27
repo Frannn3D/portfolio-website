@@ -196,7 +196,7 @@ h4 {
 
 #work img {
   border-radius: 16px;
-  padding: 16px 0 4px 0;
+  margin: 16px 0 4px 0;
 }
 
 #work {
@@ -270,12 +270,14 @@ h4 {
 
 #quick-tasty h2 {
   padding-top: 0px;
+  padding-bottom: 4px;
 }
 
+/*
 #quick-tasty p {
   padding-top: 0px;
 }
-
+*/
 #quick-tasty img {
   padding: 32px 0 52px 0;
 }
