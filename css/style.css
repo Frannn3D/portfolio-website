@@ -280,11 +280,7 @@ h4 {
   padding-bottom: 4px;
 }
 
-/*
-#quick-tasty p {
-  padding-top: 0px;
-}
-*/
+
 #quick-tasty img {
   padding: 32px 0 52px 0;
 }
@@ -298,9 +294,12 @@ h4 {
   padding-top: 24px;
 }
 
-
 .space-bottom {
   padding-bottom: 20px;
+}
+
+.space-bottom-x3 {
+  padding-bottom: 60px;
 }
 
 #styleguide img {
@@ -317,6 +316,22 @@ h4 {
   color: #DEAA7D;
   font-size: 56px;
   font-weight: 400;
+}
+
+/*  My style project page  */
+
+#my-style .overline {
+  color: #779A93;
+  font-weight: 800;
+  opacity: 100%;
+}
+
+#my-style h1 {
+  margin-bottom: 40px;
+}
+
+#my-style h2 {
+  padding-top: 0;
 }
 
 
