@@ -259,6 +259,13 @@ h4 {
   margin-bottom: 24px;
 }
 
+.l-gray-box {
+  background-color: #D4D5D6;
+  padding: 16px 12px;
+  margin-bottom: 24px;
+}
+
+
 #quick-tasty h1 {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -291,9 +298,27 @@ h4 {
   padding-top: 24px;
 }
 
-#styleguide img{
-  padding:4px 0 0 0;
+
+.space-bottom {
+  padding-bottom: 20px;
 }
+
+#styleguide img {
+  padding: 4px 0 0 0;
+}
+
+#userflow img{
+  padding: 0;
+}
+
+
+.brown-big {
+  padding-top: 20px;
+  color: #DEAA7D;
+  font-size: 56px;
+  font-weight: 400;
+}
+
 
 /* Images */
 
