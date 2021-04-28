@@ -223,6 +223,11 @@ h4 {
     text-transform: uppercase;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*  About page  */
 
@@ -334,6 +339,20 @@ h4 {
   padding-top: 0;
 }
 
+/*  Activities View project page  */
+
+.blue-box{
+  background-color: #4954A5;
+  border-radius: 28px;
+}
+
+.white {
+  color: #EFEFEF;
+}
+
+.width-80 {
+  width: 80%;
+}
 
 /* Images */
 
@@ -350,6 +369,7 @@ picture .logo {
 .yellow {
   background-color: #FCFBF5;
 }
+
 
 .beige {
   background-color: #EBE5DC;
