@@ -19,7 +19,7 @@ body {
 }
 
 .body2{
-  font-size: 14px;
+  font-size: 0.875em;
   font-weight: 400;
 }
 
@@ -146,6 +146,7 @@ h3 {
   font-weight: 400;
   padding: 12px 0;
 }
+
 h4 {
   font-size: 1.25em;
   font-weight: 500;
@@ -354,6 +355,37 @@ h4 {
   width: 80%;
 }
 
+/*  Money organizer project page  */
+
+#money-organizer h2 {
+  padding-top: 0;
+}
+
+#money-organizer ul {
+  list-style: square;
+}
+
+.off-white{
+  background-color: #FBFBFB;
+}
+
+.bar {
+  width: 15px;
+  height: 285px;
+  background-color: #7CAE7A;
+  position: relative;
+  float: left;
+  z-index: -1;
+}
+
+.green {
+  color: #7CAE7A;
+}
+
+.container-s {
+  padding: 0 16px;
+}
+
 /* Images */
 
 img {
@@ -373,6 +405,10 @@ picture .logo {
 
 .beige {
   background-color: #EBE5DC;
+}
+
+.gray {
+  color: #AAADA9;
 }
 
 /* Buttons */
