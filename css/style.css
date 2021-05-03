@@ -430,10 +430,12 @@ picture .logo {
   background-color: #8EBC8D;
   color: #ffffff; /* needed to override the default link color */
   font-weight: 500;
+  text-decoration: none;
   padding: 12px 28px;
   margin: 40px 0 48px 0;
   border-radius: 16px;
-  transition: 0.2s opacity;
+  transition-duration: 0.2s;
+  transition-property: background-color;
 }
 
 .button:hover {
@@ -551,3 +553,112 @@ Large devices (1024px or larger)
 
 }
 
+/* ==============================
+        CSS animations
+================================= */
+
+
+
+@keyframes floating1 {
+    0% {transform: translate(0, 0);}
+    25% {transform: translate(-5px, +5px);}
+    50% {transform: translate(0px, +10px);}
+    75% {transform: translate(+5px, +5px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+@keyframes floating2 {
+    0% {transform: translate(0, 0);}
+    25% {transform: translate(+5px, -5px);}
+    50% {transform: translate(0px, -10px);}
+    75% {transform: translate(-5px, -5px);}
+    100% {transform: translate(0px, 0px);}
+}
+
+@keyframes rotation {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+@keyframes skewing {
+  from {transform: skew(0deg, 0deg)}
+  to {transform: skew(5deg, 0deg)}
+}
+
+@keyframes fade1 {
+  0% {opacity:1;}
+  5% {opacity:1;}
+  15% {opacity:0.3;}
+  50% {opacity:0.3;}
+  85% {opacity:0.3;}
+  100% {opacity:1;}
+}
+
+.circle-top {
+  position: relative;
+  animation: 5s floating1 infinite linear;
+  z-index: +1;
+}
+
+.main-square {
+  position: relative;
+  animation: floating2 15s infinite linear;
+  animation: rotation 45s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+
+}
+
+.triangle {
+  position: relative;
+  animation: 3s floating2 infinite linear;
+  z-index: +1;
+}
+
+.round-leaves {
+  position: relative;
+  animation: 3s floating1 infinite linear;
+  z-index: +1;
+}
+
+.grass {
+  position: relative;
+  animation: 3s skewing infinite linear;
+  animation-direction: alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.component-top {
+  opacity: 1;
+  animation: 8s fade1 infinite;
+  animation-direction: alternate;
+  transition: cubic-bezier(.67,0,.38,1);
+  animation-delay: 0s;
+}
+
+.component-right {
+  opacity: 0.6;
+  animation: 8s fade1 infinite;
+  animation-direction: alternate;
+  transition: cubic-bezier(.67,0,.38,1);
+  animation-delay: 2s;
+}
+
+/*  cubic-bezier(.67,0,.38,1) */
+
+.component-bottom {
+  opacity: 0.6;
+  animation: 8s fade1 infinite;
+  animation-direction: alternate;
+  transition: cubic-bezier(.67,0,.38,1);
+  animation-delay: -4s;
+}
+
+.component-left {
+  opacity: 0.6;
+  animation: 8s fade1 infinite;
+  animation-direction: alternate;
+  transition: cubic-bezier(.67,0,.38,1);
+  animation-delay: -2s;
+}
