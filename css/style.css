@@ -579,13 +579,10 @@ Medium devices (640px and larger)
   display: table;
   }
 
-  .space-left{
   .space-left-md{
     padding-left: 20px;
   }
 
-  #quick-tasty .row{
-    margin: unset;
   .space-left2-md{
     padding-left: 40px;
   }
