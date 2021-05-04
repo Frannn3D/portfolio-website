@@ -238,6 +238,15 @@ h4 {
   vertical-align: middle;
 }
 
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
 /*  About page  */
 
 #about .row {
