@@ -377,6 +377,14 @@ content: "";
 clear: both;
 display: table;
 }
+
+.max-width-300 {
+  max-width: 300px;
+}
+
+
+
+
 /*  My style project page  */
 
 #my-style .overline {
@@ -521,10 +529,22 @@ picture .logo {
 /* ==============================
     Small devices
 ================================= */
+@media only screen and (max-width: 640px) {
+
+/*
+  .max-w350-sd {
+    max-width: 350px;
+  }
+*/
   .space-top-sd {
     padding-top: 36px;
   }
 
+  .max-w450-sd {
+  max-width: 450px;
+  }
+
+}
 
 /* ==============================
 Medium devices (640px and larger)
@@ -608,6 +628,36 @@ Medium devices (640px and larger)
     padding-left: 40px;
   }
 
+
+  /*  Quick and Tasty  */
+
+
+
+  .max-w300-md {
+    max-width: 300px;
+
+  }
+
+  .max-w450-md {
+    max-width: 450px;
+  }
+
+  .max-w650-md {
+    max-width: 650px;
+  }
+
+  .max-w700-md {
+    max-width: 700px;
+  }
+
+
+  #styleguide {
+    background-color: #E9D9D9;
+  }
+
+  .l-gray-box {
+    max-width: 50%;
+    float: left;
   }
 
 }
@@ -667,6 +717,13 @@ Large devices (1024px or larger)
     background-color: unset;
   }
 
+  .max-w650-md {
+    max-width: unset;
+  }
+
+  .right {
+    float: right;
+  }
 
   .space-left-320-lg {
     margin-left: 320px;
