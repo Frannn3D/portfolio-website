@@ -558,7 +558,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 120px;
+    padding-top: 76px;
   }
 
   .col-md-1 {
@@ -638,6 +638,15 @@ Medium devices (640px and larger)
   .l-gray-box {
     max-width: 50%;
     float: left;
+  }
+
+  /*  My Style  */
+
+  .overview-ms-md {
+    position: absolute;
+    top: 500px;
+    left: 10%;
+    width: 20%;
   }
 
 }
