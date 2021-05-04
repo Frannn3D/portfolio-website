@@ -530,6 +530,7 @@ picture .logo {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
   header {
   text-align: unset;
   }
@@ -548,6 +549,26 @@ Medium devices (640px and larger)
     padding-top: 120px;
   }
 
+  .col-md-1 {
+    width: 8.33%;
+  }
+
+  .col-md-2 {
+    width: 16.66%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+  width: 33.33%;
+  }
+
+  .col-md-5 {
+  width: 41.66%;
+  }
+
   .col-md-6 {
   width: 50%;
   }
@@ -556,8 +577,8 @@ Medium devices (640px and larger)
   width: 58.33%;
   }
 
-  .col-md-5 {
-  width: 41.6%%;
+  .col-md-12 {
+  width: 100%;
   }
 
   [class*="col-"] {
@@ -628,8 +649,6 @@ Large devices (1024px or larger)
   width: 58.33%;
   }
 
-  .col-lg-5 {
-  width: 41.6%;
 
 
   .col-md-12::after {
