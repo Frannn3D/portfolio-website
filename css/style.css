@@ -274,6 +274,13 @@ h4 {
 
 /*  Quick & Tasty page  */
 
+.caption-pp {   /* caption Pain points */
+  position: relative;
+  margin-top: 64%;
+  z-index: 0;
+  }
+
+
 #quick-tasty .container {
   padding-left: 24px;
   padding-right: 24px;
@@ -354,14 +361,21 @@ h4 {
 
 
 .brown-big {
-  padding-top: 20px;
   color: #DEAA7D;
   font-size: 56px;
   font-weight: 400;
+  position: absolute;
+
 }
 
 #quick-tasty .row{
   margin: unset;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
 }
 /*  My style project page  */
 
@@ -392,6 +406,11 @@ h4 {
 
 .width-80 {
   width: 80%;
+}
+
+.size-p {
+  height: 100%;
+  width: 100%;
 }
 
 /*  Money organizer project page  */
