@@ -248,6 +248,11 @@ h4 {
   width: 33.33%;
   float: left;
 }
+
+.space-left {
+  padding-left: 36px;
+}
+
 /*  About page  */
 
 #about .row {
@@ -318,6 +323,10 @@ h4 {
   padding-bottom: 36px;
 }
 
+.space-top16 {
+  padding-top: 16px;
+}
+
 .space-top {
   padding-top: 24px;
 }
@@ -351,6 +360,9 @@ h4 {
   font-weight: 400;
 }
 
+#quick-tasty .row{
+  margin: unset;
+}
 /*  My style project page  */
 
 #my-style .overline {
@@ -483,6 +495,17 @@ picture .logo {
   border: 3px solid #69A468;
 }
 
+#no-img-space img {
+  padding: unset;
+}
+
+/* ==============================
+    Small devices
+================================= */
+  .space-top-sd {
+    padding-top: 36px;
+  }
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -538,11 +561,16 @@ Medium devices (640px and larger)
   }
 
   .space-left{
+  .space-left-md{
     padding-left: 20px;
   }
 
   #quick-tasty .row{
     margin: unset;
+  .space-left2-md{
+    padding-left: 40px;
+  }
+
   }
 
 }
@@ -603,6 +631,17 @@ Large devices (1024px or larger)
   #styleguide {
     background-color: unset;
   }
+
+
+  .space-left-320-lg {
+    margin-left: 320px;
+  }
+
+  .space-left-lg{
+    margin-left: 20px;
+  }
+
+
 
 }
 
