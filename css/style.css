@@ -382,7 +382,7 @@ display: table;
 
 /*  My style project page  */
 
-#my-style .overline {
+#my-style-intro .overline {
   color: #779A93;
   font-weight: 800;
   opacity: 100%;
@@ -531,7 +531,9 @@ picture .logo {
     padding-top: 36px;
   }
 
-
+  .space-bottom-sd {
+    padding-top: 16px;
+  }
 }
 
 /* ==============================
@@ -614,6 +616,10 @@ Medium devices (640px and larger)
 
   .space-left2-md{
     padding-left: 40px;
+  }
+
+  .space-top-md {
+    padding-top: 12px;
   }
 
 
@@ -715,8 +721,6 @@ Large devices (1024px or larger)
   .space-left-lg{
     margin-left: 20px;
   }
-
-
 
 }
 
