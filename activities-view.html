@@ -17,7 +17,7 @@
   <header>
     <div class="container">
       <picture>
-        <source srcset="img/logo-desktop.svg" media="(min-width:767px)">
+        <source srcset="img/logo-desktop.svg" media="(min-width:640px)">
         <img src="img/logo-mobile.svg" alt="Francesca Paris" class="logo">
       </picture>
       <nav>
@@ -31,35 +31,49 @@
   </header>
 
 <main>
-  <div id="activities-view">
+  <div id="activities-view" class="container">
       <!-- intro section -->
       <div>
         <div>
           <picture>
-            <source srcset="img/activities-view/case-study/intro-image@2x.png" media="(min-width:767px)">
+            <source srcset="img/activities-view/case-study/intro-image@2x.png" media="(min-width:640px)">
             <img src="img/activities-view/case-study/intro-image@1x.png" alt="Introduction image">
           </picture>
-          <div class="container space-vertical">
-            <div class="blue-box container white space-vertical">
-              <img class="width-80 center" src="img/activities-view/case-study/logo-white.png" alt="Activities View logo">
+          <div class="space-vertical">
+
+            <div class="blue-box container white space-vertical row">
+              <div class="col-md-5 col-lg-3">
+
+              <img class="center" src="img/activities-view/case-study/logo-white.png" alt="Activities View logo">
+              </div>
         <!-- Project overview section -->
+            <div class="col-md-7 col-lg-9">
+
               <h3>Project Overview</h3>
               <p>Activities View is a to-do list app that allows users to quickly plan their day.
                  The app wants to help users have a balanced life and therefore displays the category each item belongs to, from education to entertainment.</p>
               <p><span class="bold">My role:</span> UI / UX Designer</p>
             </div>
+
+            </div>
         </div>
         <!-- Project brief section -->
-        <div class="container space-bottom">
+        <div class=" space-bottom">
           <h2>Project Brief, Competitor Analysis and Ideation</h2>
+          <div class="row">
+            <div class="col-md-6 col-lg-5">
           <p>This project challenge was to create a to-do list app.
 I have first analysed the other to-do apps on the market. There were all kind of apps however I could not find a product for people on the go that would allow them to quickly interact with the app.
 I have therefore decided to create a concept app aimed towards university students and people with a similar lifestyle.</p>
+          </div>
+          <div class="space-left-md col-md-6 col-lg-5">
           <p> The app would give to the users an overview of their day, with to-dos or "activities" belonging to different categories. In this way it would be possible to check if the day has a balanced lifestyle or not and quickly change it as necessary.</p>
+        </div>
+        </div>
         </div>
         <!-- Wireframes section -->
         <div class="row">
-          <div class="container">
+          <div>
             <h2>Wireframes</h2>
             <picture>
               <source srcset="img/activities-view/case-study/wireframes1@2x.png" media="(min-width:767px)">
@@ -76,14 +90,18 @@ I have therefore decided to create a concept app aimed towards university studen
           <source srcset="img/activities-view/case-study/style-guide@2x.png" media="(min-width:767px)">
             <img src="img/activities-view/case-study/style-guide@1x.png" alt="Style guide">
         </picture>
-        <h2 class="container space-vertical">High fidelity screens</h2>
+        <div class="row">
+        <h2 class="space-vertical">High fidelity screens</h2>
         <picture>
           <source srcset="img/activities-view/case-study/high-fidelity-screens@2x.png" media="(min-width:767px)">
           <img src="img/activities-view/case-study/high-fidelity-screens@1x.png" alt="High fidelity screens">
         </picture>
+        </div>
+        <div class="space-top">
         <picture>
           <img src="img/activities-view/case-study/final-image.png" alt="Final image">
         </picture>
+      </div>
       </div>
   </div>
 </main>
