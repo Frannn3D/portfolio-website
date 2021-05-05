@@ -244,6 +244,7 @@ h4 {
   float: left;
 }
 
+
 .col-4 {
   width: 33.33%;
   float: left;
@@ -414,6 +415,10 @@ display: table;
 .size-p {
   height: 100%;
   width: 100%;
+}
+
+#activities-view .row {
+  margin-bottom: unset;
 }
 
 /*  Money organizer project page  */
@@ -692,7 +697,13 @@ Large devices (1024px or larger)
   width: 58.33%;
   }
 
+  .col-lg-8 {
+  width: 66.66%;
+  }
 
+  .col-lg-9 {
+  width: 75%;
+  }
 
   .col-md-12::after {
   content: "";
