@@ -17,7 +17,7 @@
   <header>
     <div class="container">
       <picture>
-        <source srcset="img/logo-desktop.svg" media="(min-width:767px)">
+        <source srcset="img/logo-desktop.svg" media="(min-width:640px)">
         <img src="img/logo-mobile.svg" alt="Francesca Paris" class="logo">
       </picture>
       <nav>
@@ -31,7 +31,7 @@
   </header>
 
   <main>
-    <div id="money-organizer">
+    <div id="money-organizer" class="container">
       <!-- intro section -->
       <div>
         <picture>
@@ -40,26 +40,31 @@
         </picture>
       </div>
       <!-- intro paragraph left -->
-      <div class="container">
-        <div class="bar">
+      <div class="row">
+        <div class="container col-md-7">
+          <div class="bar">
+          </div>
+          <div class="max-w500-md space-left">
+            <p>Money Organizer is a money saving app.</p>
+            <ul>
+              <li>it gives to the users an overview of their finances</li>
+              <li>it allows users to create a saving goal and show its progress</li>
+              <li>it raises awareness on how the money is spent and what actions could help the users save more money</li>
+              <li>it motivates the user through positive feedback, ratings and competition* (advanced mode only), transforming a stressful experience such as managing your finances into a fun challenge.</li>
+            </ul>
+          </div>
+
+          <div class="max-w500-md space-left">
+            <p class="caption gray space-bottom">* The app algorithms allow users to compete with each other without sharing how much money is spent or saved. The app will only provide to other users progress percentages and the number of the saving
+              actions taken.</p>
+          </div>
         </div>
-        <div class="container">
-          <p>Money Organizer is a money saving app.</p>
-          <ul>
-            <li>it gives to the users an overview of their finances</li>
-            <li>it allows users to create a saving goal and show its progress</li>
-            <li>it raises awareness on how the money is spent and what actions could help the users save more money</li>
-            <li>it motivates the user through positive feedback, ratings and competition* (advanced mode only), transforming a stressful experience such as managing your finances into a fun challenge.</li>
-          </ul>
-          <p class="caption gray space-bottom">* The app algorithms allow users to compete with each other without sharing how much money is spent or saved. The app will only provide to other users progress percentages and the number of the saving
-            actions taken.</p>
+        <div class="space-left-md col-md-5">
+          <picture>
+            <source srcset="img/money-organizer/case-study/overview.png" media="(min-width:767px)">
+            <img src="img/money-organizer/case-study/overview.png" alt="Introduction image">
+          </picture>
         </div>
-      </div>
-      <div>
-        <picture>
-          <source srcset="img/money-organizer/case-study/overview.png" media="(min-width:767px)">
-          <img src="img/money-organizer/case-study/overview.png" alt="Introduction image">
-        </picture>
       </div>
       <!-- Design Process -->
       <div class="container">
@@ -196,11 +201,13 @@
           The spending overview bars do not currently show anything about recurring payments (rent or mortgage, subscriptions etc). It could be nice to add a feature showing in black the recurring spending.</p>
       </div>
       <!-- Final image -->
+
       <picture>
-        <source srcset="img/money-organizer/case-study/final-image.png" media="(min-width:767px)">
+        <source srcset="img/money-organizer/case-study/final-image.png" media="(min-width:640px)">
         <img src="img/money-organizer/case-study/final-image.png" alt="Ranking system">
       </picture>
-    </div>
+      </div>
+
 
 
   </main>
