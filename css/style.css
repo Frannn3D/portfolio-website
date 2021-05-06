@@ -4,7 +4,6 @@ Primary Color 1 (Green): #8ebc8d;
 Primary Color 2 (lighter green): #e8eee2;
 Layout colour - almost black: 323A30;
 */
-
 * {
   box-sizing: border-box;
 }
@@ -15,16 +14,16 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.25;   /* Sets the line-height to 1.25 * the font-size = 20px */
+  /* Sets the line-height to 1.25 * the font-size = 20px */
   color: #323A30;
 }
 
-.body2{
+.body2 {
   font-size: 0.875em;
   font-weight: 400;
 }
 
 /* Layout styling */
-
 header {
   position: fixed;
   width: 100%;
@@ -33,8 +32,8 @@ header {
   padding: 10px 0;
   border-bottom: 1px solid #EEEEEE;
   -webkit-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 0.1);
-  -moz-box-shadow:    0px 5px 9px 0px rgba(50, 50, 50, 0.1);
-  box-shadow:         0px 5px 9px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 0.1);
   z-index: +1;
 }
 
@@ -51,7 +50,6 @@ p {
   margin: 0;
 }
 
-
 footer {
   text-align: center;
   background-color: #E8EEE2;
@@ -63,65 +61,61 @@ footer p {
   padding: 24px 0;
 }
 
-
-
-
 /* Links */
-
 a {
   font-weight: 400;
   color: #000000;
-  text-decoration: none; /* No underlining */
+  text-decoration: none;
+  /* No underlining */
 }
 
 a:hover,
 a:focus {
   font-weight: 400;
   color: #979797;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
 }
 
-a:active { /* selected link */
+a:active {
+  /* selected link */
   color: #8EBC8D;
 }
 
 /* Navigation bar Links */
-
 nav {
   display: inline-block;
   width: 100%;
 }
 
-nav > ul {
+nav>ul {
   margin: 0;
   list-style-type: none;
   padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
 }
 
-
-nav > ul > li > a {
+nav>ul>li>a {
   font-weight: 300;
   padding: 0 15px;
 }
 
-nav > ul > li > a:hover {
+nav>ul>li>a:hover {
   font-weight: 300;
 }
 
-nav > ul > li > a:focus {
+nav>ul>li>a:focus {
   font-weight: 300;
 }
 
-nav > ul > li > a:active {
+nav>ul>li>a:active {
   font-weight: 300;
 }
 
 /* Headlines */
-
 h1, h2, h3, h4 {
   line-height: 1.25;
   margin: 0;
@@ -154,6 +148,7 @@ h4 {
   padding: 8px 0;
 }
 
+/* Other classes */
 .overline {
   font-family: 'Encode Sans Semi Condensed', sans-serif;
   font-size: 0.75em;
@@ -163,28 +158,26 @@ h4 {
   opacity: 40%;
 }
 
-.caption{
+.caption {
   font-size: 0.75em;
 }
 
-
 /*  intro.html  */
-
 .intro-desc {
   font-weight: 400;
   color: #000000;
 }
 
 .row {
-  margin: 0px 0 48px 0; /* 25px top and bottom, 0 left and right */
+  margin: 0px 0 48px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
 .section {
   margin: 24px 0 20px 0;
 }
 
-
-#hero{
+#hero {
   padding: 0px 0;
 }
 
@@ -192,7 +185,6 @@ h4 {
   text-align: center;
   padding: 20px 0 60px 0;
 }
-
 
 #work .button {
   margin-bottom: 0;
@@ -213,8 +205,6 @@ h4 {
 }
 
 /*   Project  */
-
-
 .bold {
   font-weight: 500;
 }
@@ -224,7 +214,7 @@ h4 {
 }
 
 .uppercase {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .center {
@@ -244,7 +234,6 @@ h4 {
   float: left;
 }
 
-
 .col-4 {
   width: 33.33%;
   float: left;
@@ -255,7 +244,6 @@ h4 {
 }
 
 /*  About page  */
-
 #about .row {
   margin-bottom: unset;
 }
@@ -274,19 +262,17 @@ h4 {
 }
 
 /*  Quick & Tasty page  */
-
-.caption-pp {   /* caption Pain points */
+.caption-pp {
+  /* caption Pain points */
   position: relative;
   margin-top: 64%;
   z-index: 0;
-  }
-
+}
 
 #quick-tasty .container {
   padding-left: 24px;
   padding-right: 24px;
 }
-
 
 .white-box {
   background-color: #FFFFFF;
@@ -306,7 +292,6 @@ h4 {
   margin-bottom: 24px;
 }
 
-
 #quick-tasty h1 {
   margin-top: 32px;
   margin-bottom: 32px;
@@ -320,7 +305,6 @@ h4 {
   padding-top: 0px;
   padding-bottom: 4px;
 }
-
 
 #quick-tasty img {
   padding: 32px 0 52px 0;
@@ -339,8 +323,6 @@ h4 {
   padding-top: 24px;
 }
 
-
-
 .space-bottom {
   padding-bottom: 20px;
 }
@@ -353,38 +335,32 @@ h4 {
   padding: 4px 0 0 0;
 }
 
-
 #styleguide {
   background-color: #E9D9D9;
 }
 
-#userflow img{
+#userflow img {
   padding: 0;
 }
-
 
 .brown-big {
   color: #DEAA7D;
   font-size: 56px;
   font-weight: 400;
   position: absolute;
-
 }
 
-#quick-tasty .row{
+#quick-tasty .row {
   margin: unset;
 }
 
 .row::after {
-content: "";
-clear: both;
-display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
-
-
 /*  My style project page  */
-
 #my-style-intro .overline {
   color: #779A93;
   font-weight: 800;
@@ -400,8 +376,7 @@ display: table;
 }
 
 /*  Activities View project page  */
-
-.blue-box{
+.blue-box {
   background-color: #4954A5;
   border-radius: 28px;
 }
@@ -424,7 +399,6 @@ display: table;
 }
 
 /*  Money organizer project page  */
-
 #money-organizer h2 {
   padding-top: 0;
 }
@@ -441,7 +415,7 @@ display: table;
   padding-left: 40px;
 }
 
-.off-white{
+.off-white {
   background-color: #FBFBFB;
 }
 
@@ -473,17 +447,15 @@ display: table;
 
 .row-gb {
   margin: 0 0 16px 0;
-
 }
 
 .row-gb::after {
-content: "";
-clear: both;
-display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 /* Images */
-
 img {
   max-width: 100%;
 }
@@ -493,11 +465,9 @@ picture .logo {
   max-width: 150px;
 }
 
-
 .yellow {
   background-color: #FCFBF5;
 }
-
 
 .beige {
   background-color: #EBE5DC;
@@ -508,11 +478,12 @@ picture .logo {
 }
 
 /* Buttons */
-
 .button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #8EBC8D;
-  color: #ffffff; /* needed to override the default link color */
+  color: #ffffff;
+  /* needed to override the default link color */
   font-weight: 500;
   text-decoration: none;
   padding: 12px 28px;
@@ -527,10 +498,9 @@ picture .logo {
   font-weight: 500;
   background-color: #B3D6B2;
   text-decoration: none;
-
 }
 
-.button:active{
+.button:active {
   background-color: #69A468;
 }
 
@@ -556,13 +526,10 @@ picture .logo {
   padding: unset;
 }
 
-
 /* ==============================
     Small devices
 ================================= */
 @media only screen and (max-width: 640px) {
-
-
   .space-top-sd {
     padding-top: 36px;
   }
@@ -576,9 +543,8 @@ picture .logo {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
-
   header {
-  text-align: unset;
+    text-align: unset;
   }
 
   picture .logo {
@@ -586,9 +552,9 @@ Medium devices (640px and larger)
   }
 
   nav {
-  width: auto;
-  float: right;
-  margin-top: 20px;
+    width: auto;
+    float: right;
+    margin-top: 20px;
   }
 
   main {
@@ -608,29 +574,28 @@ Medium devices (640px and larger)
   }
 
   .col-md-4 {
-  width: 33.33%;
+    width: 33.33%;
   }
 
   .col-md-5 {
-  width: 41.66%;
+    width: 41.66%;
   }
 
   .col-md-6 {
-  width: 50%;
+    width: 50%;
   }
 
   .col-md-7 {
-  width: 58.33%;
+    width: 58.33%;
   }
 
   .col-md-12 {
-  width: 100%;
+    width: 100%;
   }
 
   [class*="col-"] {
-  float: left;
+    float: left;
   }
-
 
   #about .row {
     margin-bottom: 12px;
@@ -641,16 +606,16 @@ Medium devices (640px and larger)
   }
 
   .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
   }
 
-  .space-left-md{
+  .space-left-md {
     padding-left: 20px;
   }
 
-  .space-left2-md{
+  .space-left2-md {
     padding-left: 40px;
   }
 
@@ -658,16 +623,10 @@ Medium devices (640px and larger)
     padding-top: 12px;
   }
 
-
   /*  Quick and Tasty  */
-
-
-
   .max-w300-md {
     max-width: 300px;
-
   }
-
 
   #styleguide {
     background-color: #E9D9D9;
@@ -679,7 +638,6 @@ Medium devices (640px and larger)
   }
 
   /*  My Style  */
-
   .overview-ms-md {
     position: absolute;
     top: 500px;
@@ -687,24 +645,20 @@ Medium devices (640px and larger)
     width: 20%;
   }
 
-    /*  Money Organizer  */
+  /*  Money Organizer  */
+  .max-w500-md {
+    max-width: 500px;
+  }
 
-    .max-w500-md {
-      max-width: 500px;
-    }
-
-    #money-organizer .row {
-      margin-bottom: 36px;
-    }
-
-
+  #money-organizer .row {
+    margin-bottom: 36px;
+  }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
   .col-md-6 {
     width: unset;
   }
@@ -714,41 +668,41 @@ Large devices (1024px or larger)
   }
 
   .col-lg-2 {
-  width: 16.66%;
+    width: 16.66%;
   }
 
   .col-lg-3 {
-  width: 25%;
+    width: 25%;
   }
 
   .col-lg-4 {
-  width: 33.33%;
+    width: 33.33%;
   }
 
   .col-lg-5 {
-  width: 41.66%;
+    width: 41.66%;
   }
 
   .col-lg-6 {
-  width: 50%;
+    width: 50%;
   }
 
   .col-lg-7 {
-  width: 58.33%;
+    width: 58.33%;
   }
 
   .col-lg-8 {
-  width: 66.66%;
+    width: 66.66%;
   }
 
   .col-lg-9 {
-  width: 75%;
+    width: 75%;
   }
 
   .col-md-12::after {
-  content: "";
-  clear: unset;
-  display: table;
+    content: "";
+    clear: unset;
+    display: table;
   }
 
   .container {
@@ -769,14 +723,10 @@ Large devices (1024px or larger)
     margin-left: 320px;
   }
 
-  .space-left-lg{
+  .space-left-lg {
     margin-left: 20px;
   }
-
 }
-
-
-
 
 /* ==============================
         CSS animations
@@ -831,7 +781,6 @@ Large devices (1024px or larger)
   animation: rotation 45s infinite linear;
   transform-origin: center;
   transform-box: fill-box;
-
 }
 
 .triangle {
@@ -858,7 +807,7 @@ Large devices (1024px or larger)
   opacity: 1;
   animation: 8s fade1 infinite;
   animation-direction: alternate;
-  transition: cubic-bezier(.67,0,.38,1);
+  transition: cubic-bezier(.67, 0, .38, 1);
   animation-delay: 0s;
 }
 
@@ -866,17 +815,16 @@ Large devices (1024px or larger)
   opacity: 0.6;
   animation: 8s fade1 infinite;
   animation-direction: alternate;
-  transition: cubic-bezier(.67,0,.38,1);
+  transition: cubic-bezier(.67, 0, .38, 1);
   animation-delay: 2s;
 }
 
 /*  cubic-bezier(.67,0,.38,1) */
-
 .component-bottom {
   opacity: 0.6;
   animation: 8s fade1 infinite;
   animation-direction: alternate;
-  transition: cubic-bezier(.67,0,.38,1);
+  transition: cubic-bezier(.67, 0, .38, 1);
   animation-delay: -4s;
 }
 
@@ -884,6 +832,6 @@ Large devices (1024px or larger)
   opacity: 0.6;
   animation: 8s fade1 infinite;
   animation-direction: alternate;
-  transition: cubic-bezier(.67,0,.38,1);
+  transition: cubic-bezier(.67, 0, .38, 1);
   animation-delay: -2s;
 }
