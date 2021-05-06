@@ -699,6 +699,10 @@ Large devices (1024px or larger)
     width: 75%;
   }
 
+  .col-lg-12 {
+    width: 100%;
+  }
+
   .col-md-12::after {
     content: "";
     clear: unset;
