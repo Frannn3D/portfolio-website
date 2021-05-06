@@ -339,6 +339,8 @@ h4 {
   padding-top: 24px;
 }
 
+
+
 .space-bottom {
   padding-bottom: 20px;
 }
@@ -431,13 +433,21 @@ display: table;
   list-style: square;
 }
 
+#app-features li::marker {
+  color: #676767;
+}
+
+#app-features .space-left {
+  padding-left: 40px;
+}
+
 .off-white{
   background-color: #FBFBFB;
 }
 
 .bar {
   width: 15px;
-  height: 285px;
+  height: 220px;
   background-color: #7CAE7A;
   position: relative;
   float: left;
@@ -450,6 +460,26 @@ display: table;
 
 .container-s {
   padding: 0 16px;
+}
+
+#green-box {
+  background-color: #E7F3E7;
+  padding: 20px 20px;
+  margin-top: 28px;
+  margin-bottom: 32px;
+  margin-left: 40px;
+  border-radius: 8px;
+}
+
+.row-gb {
+  margin: 0 0 16px 0;
+
+}
+
+.row-gb::after {
+content: "";
+clear: both;
+display: table;
 }
 
 /* Images */
@@ -525,6 +555,7 @@ picture .logo {
 #no-img-space img {
   padding: unset;
 }
+
 
 /* ==============================
     Small devices
@@ -656,6 +687,15 @@ Medium devices (640px and larger)
     width: 20%;
   }
 
+    /*  Money Organizer  */
+
+    .max-w500-md {
+      max-width: 500px;
+    }
+
+    #money-organizer .row {
+      margin-bottom: 36px;
+    }
 
 
 }
@@ -734,6 +774,9 @@ Large devices (1024px or larger)
   }
 
 }
+
+
+
 
 /* ==============================
         CSS animations
