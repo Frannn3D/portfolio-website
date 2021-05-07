@@ -173,6 +173,11 @@ h4 {
   /* 25px top and bottom, 0 left and right */
 }
 
+.row-nm {
+  margin: 0px 0 0px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
 .section {
   margin: 24px 0 20px 0;
 }
@@ -229,13 +234,20 @@ h4 {
   vertical-align: middle;
 }
 
+
+
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+
 .col-8 {
   width: 66.66%;
   float: left;
 }
 
-.col-4 {
-  width: 33.33%;
+.col-12 {
+  width: 100%;
   float: left;
 }
 
@@ -355,6 +367,12 @@ h4 {
 }
 
 .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row-nm::after {
   content: "";
   clear: both;
   display: table;
@@ -537,6 +555,16 @@ picture .logo {
   .space-bottom-sd {
     padding-top: 16px;
   }
+
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  .container {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
 }
 
 /* ==============================
@@ -609,6 +637,10 @@ Medium devices (640px and larger)
     content: "";
     clear: both;
     display: table;
+  }
+
+  .space-left-md12 {
+    padding-left: 12px;
   }
 
   .space-left-md {
@@ -699,6 +731,10 @@ Large devices (1024px or larger)
     width: 75%;
   }
 
+  .col-lg-10 {
+    width: 83.33%;
+  }
+
   .col-lg-12 {
     width: 100%;
   }
@@ -729,6 +765,14 @@ Large devices (1024px or larger)
 
   .space-left-lg {
     margin-left: 20px;
+  }
+
+  .space-left-lg-12 {
+    margin-left: 12px;
+  }
+
+  .space-right-lg {
+   margin-right: 20px;
   }
 }
 
