@@ -565,6 +565,10 @@ picture .logo {
     padding-right: unset;
   }
 
+  #container-sm-m .container {  /*  container only for the index and about page - main pages*/
+    padding: 0 24px;
+  }
+
 }
 
 /* ==============================
