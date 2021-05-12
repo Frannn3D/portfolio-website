@@ -27,9 +27,8 @@ body {
 header {
   position: fixed;
   width: 100%;
-  text-align: center;
   background-color: #FFFFFF;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   border-bottom: 1px solid #EEEEEE;
   -webkit-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 0.1);
   -moz-box-shadow: 0px 5px 9px 0px rgba(50, 50, 50, 0.1);
@@ -94,9 +93,39 @@ nav>ul {
   padding: 0;
 }
 
-nav>ul>li {
-  display: inline-block;
+.navtoggle li:not(:last-child) {
+  display: none;     /* it was none */
 }
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle.reponsive {
+    height: 160px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  right: 24px;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+
+.navtoggle.responsive nav {
+  display: inline-block;;
+  width: 88px;
+  right: 24px;
+  height: 100px;
+  line-height: 2;
+  top: 60px;
+  float: right;
+  margin-top: 52px;
+}
+
 
 nav>ul>li>a {
   font-weight: 300;
@@ -182,6 +211,7 @@ h4 {
   margin: 24px 0 20px 0;
 }
 
+
 #hero {
   padding: 0px 0;
 }
@@ -238,6 +268,11 @@ h4 {
 
 .col-4 {
   width: 33.33%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
   float: left;
 }
 
@@ -480,8 +515,8 @@ img {
 }
 
 picture .logo {
-  padding: 12px 0;
-  max-width: 150px;
+  padding: 0px 0px 0 24px;
+  max-width: 174px;
 }
 
 .yellow {
@@ -549,12 +584,69 @@ picture .logo {
     Small devices
 ================================= */
 @media only screen and (max-width: 640px) {
+
+/*
+  header nav {
+    width: 200px;
+    position: absolute;
+    top: 0px;
+    right: 24px;
+
+  }
+
+  nav>ul {
+    margin: unset;
+    padding: unset;
+  }
+
+  nav>ul {
+    line-height: 2;
+  }
+
+  nav>ul>li {
+    position: relative;
+    top:20px;
+    line-height: 2;
+  }  */
+
+  .navtoggle.responsive li:nth-child(1) {
+    position; absolute;
+    left: 20px;
+    display: inline-block;
+  }
+
   .space-top-sd {
     padding-top: 36px;
   }
 
   .space-bottom-sd {
     padding-top: 16px;
+  }
+
+  .menu-items {
+    position: absolute;
+    top: 40px;
+    right: 24px;
+  }
+
+  .col-sm-2 {
+    width: 16.66%;
+  }
+
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  .col-sm-10 {
+    width: 83.33%;
   }
 
   .col-sm-12 {
@@ -580,6 +672,22 @@ Medium devices (640px and larger)
     text-align: unset;
   }
 
+  nav > ul {
+  margin: 1em 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
   picture .logo {
     padding: unset;
   }
@@ -587,7 +695,7 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    margin-top: 20px;
+
   }
 
   main {
