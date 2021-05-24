@@ -13,7 +13,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.25;   /* Sets the line-height to 1.25 * the font-size = 20px */
+  line-height: 1.5;   /* Sets the line-height to 1.25 * the font-size = 20px */
   /* Sets the line-height to 1.25 * the font-size = 20px */
   color: #323A30;
 }
