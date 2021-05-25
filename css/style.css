@@ -514,6 +514,7 @@ img {
 picture .logo {
   padding: 0px 0px 0 24px;
   max-width: 174px;
+  max-width: 184px;
 }
 
 .yellow {
