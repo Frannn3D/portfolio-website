@@ -1207,3 +1207,18 @@ Large devices (1024px or larger)
   transition: cubic-bezier(.67, 0, .38, 1);
   animation-delay: -2s;
 }
+
+
+
+#contact-page header {
+  height: 72px;
+}
+#contact-page footer {
+  height: 180px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+#contact-page main {
+  height: calc(100vh - 252px);
+}
