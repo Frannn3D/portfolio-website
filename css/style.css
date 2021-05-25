@@ -798,6 +798,12 @@ picture .logo {
     padding: 0 24px;
   }
 
+  #contact-me h1 {
+  margin-top: 0px;
+  }
+
+/*   Intro hero animation  */
+
   @keyframes move-down {
       0% {
         left: 10%;
