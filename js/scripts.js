@@ -8,17 +8,3 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
-
-
-
-function menuContact() {
-  var s = screen.width;
-  if (s <= 640) {
-    var d = document.getElementById('myNavtoggle');
-    if (d.className === 'navtoggle') {
-    d.className += ' responsive';
-    } else {
-      d.className = 'navtoggle';
-    }
- }
-}
