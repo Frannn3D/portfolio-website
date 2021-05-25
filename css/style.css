@@ -274,7 +274,44 @@ h4 {
   vertical-align: middle;
 }
 
+/* Padding top classes*/
 
+.padding-t-4 {
+  padding-top: 4px;
+}
+
+.padding-t-8 {
+  padding-top: 8px;
+}
+
+.padding-t-18 {
+  padding-top: 18px;
+}
+
+.padding-t-20 {
+  padding-top: 20px;
+}
+
+.padding-t-16 {
+  padding-top: 16px;
+}
+
+/* Space left */
+
+.space-left {
+  padding-left: 36px;
+}
+
+.space-left16 {
+  padding-left: 16px;
+}
+
+
+.space-left12 {
+  padding-left: 12px;
+}
+
+/* Main Column classes */
 
 .col-4 {
   width: 33.33%;
@@ -296,13 +333,7 @@ h4 {
   float: left;
 }
 
-.space-left {
-  padding-left: 36px;
-}
 
-.space-left12 {
-  padding-left: 12px;
-}
 
 /*  About page  */
 #about .row {
@@ -386,6 +417,22 @@ h4 {
 
 .space-bottom {
   padding-bottom: 20px;
+}
+
+.space-bottom12 {
+  padding-bottom: 12px;
+}
+
+.space-bottom24 {
+  padding-bottom: 24px;
+}
+
+.space-bottom36 {
+  padding-bottom: 36px;
+}
+
+.space-bottom44 {
+  padding-bottom: 44px;
 }
 
 .space-bottom-x3 {
