@@ -249,7 +249,6 @@ h4 {
   color: #898D89;
 }
 
-/*   Project  */
 .bold {
   font-weight: 500;
 }
@@ -745,29 +744,6 @@ picture .logo {
 ================================= */
 @media only screen and (max-width: 640px) {
 
-/*
-  header nav {
-    width: 200px;
-    position: absolute;
-    top: 0px;
-    right: 24px;
-
-  }
-
-  nav>ul {
-    margin: unset;
-    padding: unset;
-  }
-
-  nav>ul {
-    line-height: 2;
-  }
-
-  nav>ul>li {
-    position: relative;
-    top:20px;
-    line-height: 2;
-  }  */
 
   .navtoggle.responsive li:nth-child(1) {
     position; absolute;
