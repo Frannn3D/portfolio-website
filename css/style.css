@@ -434,6 +434,14 @@ h4 {
   opacity: 100%;
 }
 
+#my-style .green {
+  background-color: #2A6156;
+}
+
+#my-style .white {
+  color: #FFFFFF;
+}
+
 #my-style h1 {
   margin-bottom: 40px;
 }
