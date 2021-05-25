@@ -60,13 +60,18 @@ footer p {
   padding: 24px 0;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 /* Links */
 a {
   font-weight: 400;
   color: #000000;
-  text-decoration: none;
+  text-decoration: underline;
   /* No underlining */
 }
+
 
 a:hover,
 a:focus {
@@ -83,6 +88,10 @@ a:active {
 nav {
   display: inline-block;
   width: 100%;
+}
+
+li>a {
+  text-decoration: none;
 }
 
 nav>ul {
