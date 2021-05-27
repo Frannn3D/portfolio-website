@@ -16,7 +16,7 @@ body {
   line-height: 1.5;   /* Sets the line-height to 1.25 * the font-size = 20px */
 
   /* Sets the line-height to 1.25 * the font-size = 20px */
-  color: #323a30;
+  color: #000;
 }
 
 .body2 {
@@ -224,8 +224,8 @@ h4 {
   font-size: 0.75em;
   font-weight: 500;
   text-transform: uppercase;
-  color: #888;
-  opacity: 40%;
+  color: #767676;
+  opacity: 100%;
 }
 
 .caption {
@@ -272,7 +272,7 @@ h4 {
 }
 
 #work img {
-  border-radius: 16px;
+  border-radius: 0;
   margin: 16px 0 4px;
 }
 
@@ -405,7 +405,7 @@ h4 {
 }
 
 .gray-box {
-  background-color: #808388;
+  background-color: #6b6d72;
   padding: 16px 12px;
   margin-bottom: 24px;
 }
