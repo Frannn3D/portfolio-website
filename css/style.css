@@ -72,13 +72,13 @@ a {
 
 a:hover,
 a:focus {
-  font-weight: 400;
-  color: #979797;
+  font-weight: 500;
 }
 
 a:active {
   /* selected link */
-  color: #8ebc8d;
+  color: #000;
+  font-weight: 500;
 }
 
 /* Navigation bar Links */
