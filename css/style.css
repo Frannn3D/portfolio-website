@@ -634,49 +634,75 @@ picture .logo {
 
 /* Buttons */
 .button {
+  position: relative;
   display: inline-block;
+  border: 3px solid #11847c;
+  transition: transform 300ms ease-in-out;
 
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #15594b;
-  color: #fff;
+  background-color: var(--background-color);
+  color: #11847c;
 
   /* needed to override the default link color */
   font-weight: 500;
   text-decoration: none;
   padding: 12px 28px;
   margin: 40px 0 48px;
-  border-radius: 16px;
-  transition-duration: 0.2s;
-  transition-property: background-color;
+  border-radius: 0;
+  outline: 0 solid #11847c;
+  outline-offset: 3px;
+
+  --background-color: #fff;
+  --border-size: 3px;
+  --underline-color: #11847c;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--border-size);
+  background-color: var(--underline-color);
+  transform: scaleX(0) translateY(+5px);
+  transition: transform 300ms ease-in-out;
+}
+
+.button:hover::before,
+.button:focus::before {
+  transform:
+    scaleX(1)
+    translateY(+5px);
 }
 
 .button:hover {
-  color: #fff;
+  color: #11847c;
   font-weight: 500;
-  background-color: #00866a;
-  text-decoration: none;
 }
 
 .button:active {
-  background-color: #0d3c33;
+  transform: scaleX(1) translateY(+5px);
+}
+
+.button::after {
+  transition: 0.3s;
+  content: '';
+  position: absolute;
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background: #f7f7f7;
 }
 
 .button.contact {
   background-color: transparent;
-  color: #8ebc8d;
-  border: 3px solid #8ebc8d;
+  color: #696c65;
+  border: 3px solid #696c65;
   margin-bottom: 28px;
-}
 
-.button.contact:hover {
-  color: #b3d6b2;
-  border: 3px solid #b3d6b2;
-}
-
-.button.contact:active {
-  background-color: #fff;
-  color: #69a468;
-  border: 3px solid #69a468;
+  --underline-color: #696c65;
 }
 
 /* ---------  Lines animation --------- */
