@@ -13,9 +13,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.5;   /* Sets the line-height to 1.25 * the font-size = 20px */
-
-  /* Sets the line-height to 1.25 * the font-size = 20px */
+  line-height: 1.5;  /* Sets the line-height to 1.25 * the font-size = 20px */
   color: #000;
 }
 
@@ -65,9 +63,7 @@ footer a {
 a {
   font-weight: 400;
   color: #000;
-  text-decoration: underline;
-
-  /* No underlining */
+  text-decoration: underline;  /* No underlining */
 }
 
 a:hover,
@@ -99,7 +95,7 @@ nav > ul {
 }
 
 .navtoggle li:not(:last-child) {
-  display: none;     /* it was none */
+  display: none; /* it was none */
 }
 
 .navtoggle,
@@ -239,15 +235,11 @@ h4 {
 }
 
 .row {
-  margin: 0 0 48px;
-
-  /* 25px top and bottom, 0 left and right */
+  margin: 0 0 48px;  /* 25px top and bottom, 0 left and right */
 }
 
 .row-nm {
-  margin: 0;
-
-  /* 25px top and bottom, 0 left and right */
+  margin: 0;  /* 25px top and bottom, 0 left and right */
 }
 
 .section {
@@ -310,7 +302,6 @@ h4 {
 }
 
 /* Padding top classes */
-
 .padding-t-4 {
   padding-top: 4px;
 }
@@ -332,7 +323,6 @@ h4 {
 }
 
 /* Space left */
-
 .space-left {
   padding-left: 36px;
 }
@@ -346,7 +336,6 @@ h4 {
 }
 
 /* Main Column classes */
-
 .col-4 {
   width: 33.33%;
   float: left;
@@ -641,13 +630,9 @@ picture .logo {
   position: relative;
   display: inline-block;
   border: 3px solid #11847c;
-  transition: transform 300ms ease-in-out;
-
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  transition: transform 300ms ease-in-out;  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: var(--background-color);
-  color: #11847c;
-
-  /* needed to override the default link color */
+  color: #11847c;  /* needed to override the default link color */
   font-weight: 500;
   text-decoration: none;
   padding: 12px 28px;
@@ -675,9 +660,7 @@ picture .logo {
 
 .button:hover::before,
 .button:focus::before {
-  transform:
-    scaleX(1)
-    translateY(+5px);
+  transform: scaleX(1) translateY(+5px);
 }
 
 .button:hover {
@@ -710,7 +693,6 @@ picture .logo {
 }
 
 /* ---------  Lines animation --------- */
-
 @keyframes move-down {
   0% {
     transform: translateY(-10px);
@@ -718,8 +700,14 @@ picture .logo {
     width: 40%;
     opacity: 0;
   }
-  40% { opacity: 1; }
-  60% { opacity: 1; }
+
+  40% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
 
   80% {
     transform: translateY(+150px);
@@ -748,8 +736,14 @@ picture .logo {
     width: 40%;
     opacity: 0;
   }
-  40% { opacity: 1; }
-  60% { opacity: 1; }
+
+  40% {
+    opacity: 1;
+  }
+
+  60% {
+    opacity: 1;
+  }
 
   80% {
     transform: translateY(-200px);
@@ -773,15 +767,31 @@ picture .logo {
 }
 
 @keyframes appear {
-  0% { opacity: 0; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes appear2 {
-  0% { opacity: 0; }
-  70% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .lines-downwards {
@@ -863,18 +873,6 @@ picture .logo {
     width: 100%;
   }
 
-  /*
-  .container {
-    padding-left: unset;
-    padding-right: unset;
-  }
-
-  #container-sm-m .container {  /*  container only for the index and about page - main pages */
-
-  /*    padding: 0 24px;
-  }
-*/
-
   .container-sm {
     padding-right: 24px;
     padding-left: 24px;
@@ -885,7 +883,6 @@ picture .logo {
   }
 
   /*   Intro hero animation  */
-
   @keyframes move-down {
     0% {
       left: 10%;
@@ -893,7 +890,9 @@ picture .logo {
       opacity: 0;
     }
 
-    60% { opacity: 1; }
+    60% {
+      opacity: 1;
+    }
 
     80% {
       width: 80%;
@@ -920,7 +919,9 @@ picture .logo {
       opacity: 0;
     }
 
-    60% { opacity: 1; }
+    60% {
+      opacity: 1;
+    }
 
     80% {
       width: 80%;
@@ -1197,40 +1198,94 @@ Large devices (1024px or larger)
 ================================= */
 
 /* ---------  Others  --------- */
-
 @keyframes floating1 {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(-5px, +5px); }
-  50% { transform: translate(0, +10px); }
-  75% { transform: translate(+5px, +5px); }
-  100% { transform: translate(0, 0); }
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(-5px, +5px);
+  }
+
+  50% {
+    transform: translate(0, +10px);
+  }
+
+  75% {
+    transform: translate(+5px, +5px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 @keyframes floating2 {
-  0% { transform: translate(0, 0); }
-  25% { transform: translate(+5px, -5px); }
-  50% { transform: translate(0, -10px); }
-  75% { transform: translate(-5px, -5px); }
-  100% { transform: translate(0, 0); }
+  0% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(+5px, -5px);
+  }
+
+  50% {
+    transform: translate(0, -10px);
+  }
+
+  75% {
+    transform: translate(-5px, -5px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 @keyframes rotation {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes skewing {
-  from { transform: skew(0deg, 0deg); }
-  to { transform: skew(5deg, 0deg); }
+  from {
+    transform: skew(0deg, 0deg);
+  }
+
+  to {
+    transform: skew(5deg, 0deg);
+  }
 }
 
 @keyframes fade1 {
-  0% { opacity: 1; }
-  5% { opacity: 1; }
-  15% { opacity: 0.3; }
-  50% { opacity: 0.3; }
-  85% { opacity: 0.3; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+
+  5% {
+    opacity: 1;
+  }
+
+  15% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+
+  85% {
+    opacity: 0.3;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .circle-top {
