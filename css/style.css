@@ -1231,6 +1231,14 @@ Large devices (1024px or larger)
   .space-right12-lg {
     padding-right: 12px;
   }
+
+  .container-lg {
+    padding-left: 24px;
+    padding-right: 24px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* ==============================
