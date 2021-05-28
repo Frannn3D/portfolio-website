@@ -975,6 +975,14 @@ picture .logo {
     opacity: 1;
     animation: 2s appear2 1 ease-in;
   }
+
+  .center-s {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 }
 
 /* ==============================
