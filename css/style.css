@@ -983,6 +983,20 @@ picture .logo {
   }
 }
 
+/* ==============================
+Medium devices (812px and higher screens)
+================================= */
+@media only screen and (min-height: 812px) {
+  #contact-page footer {
+    height: 180px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  #contact-page main {
+    height: calc(100vh - 252px);
+  }
 }
 
 /* ==============================
