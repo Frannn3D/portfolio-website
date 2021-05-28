@@ -118,6 +118,24 @@ nav > ul {
   top: 0;
 }
 
+.icon a:hover::before,
+.icon a:focus::before {
+  transition: unset;
+  content: '';
+  transform: scaleX(0) translateY(0);
+}
+
+.icon a::before {
+  transform: scaleX(0) translateY(0);
+  transition: unset;
+  text-decoration: unset;
+}
+
+.icon a:active {
+  transform: scaleX(1) translateY(0);
+  font-weight: 300;
+}
+
 .navtoggle.responsive nav {
   display: inline-block;
   width: 100px;
