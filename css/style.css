@@ -981,6 +981,10 @@ picture .logo {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .profile {
+    padding-bottom: 16px;
+  }
 }
 
 /* ==============================
