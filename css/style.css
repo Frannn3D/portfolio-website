@@ -26,7 +26,7 @@ body {
 header {
   position: fixed;
   width: 100%;
-  background-color: #dff0cf;
+  background-color: #7dcac3;
   padding: 10px 0 4px;
   border-bottom: 1px solid #cdd4c7;
   -webkit-box-shadow: 0 5px 9px 0 rgba(50, 50, 50, 0.1);
@@ -46,7 +46,7 @@ p {
 
 footer {
   text-align: center;
-  background-color: #dff0cf;
+  background-color: #7dcac3;
   padding: 32px 0 12px;
 }
 
