@@ -307,6 +307,18 @@ h4 {
   text-transform: uppercase;
 }
 
+.inline {
+  display: inline;
+}
+
+.line-height-0 {
+  line-height: 0;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -317,6 +329,25 @@ h4 {
   padding: unset;
   display: inline-block;
   vertical-align: middle;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.center2 {
+  position: relative;
+  padding-top: 50%;
+  left: 25%;
+}
+
+/* Margin top to cover the header bar space */
+.margin-t-71 {
+  margin-top: 71px;
 }
 
 /* Padding top classes */
@@ -338,6 +369,10 @@ h4 {
 
 .padding-t-16 {
   padding-top: 16px;
+}
+
+.padding-t-140 {
+  padding-top: 140px;
 }
 
 /* Space left */
@@ -478,6 +513,10 @@ h4 {
   padding-bottom: 60px;
 }
 
+.space-bottom-140 {
+  padding-bottom: 140px;
+}
+
 #styleguide img {
   padding: 4px 0 0;
 }
@@ -581,10 +620,6 @@ h4 {
   padding-left: 40px;
 }
 
-.off-white {
-  background-color: #fbfbfb;
-}
-
 .bar {
   width: 15px;
   height: 220px;
@@ -592,10 +627,6 @@ h4 {
   position: relative;
   float: left;
   z-index: -1;
-}
-
-.green {
-  color: #2e872b;
 }
 
 .container-s {
@@ -631,6 +662,8 @@ picture .logo {
   max-width: 174px;
 }
 
+/* Colours */
+
 .yellow {
   background-color: #fcfbf5;
 }
@@ -639,8 +672,32 @@ picture .logo {
   background-color: #ebe5dc;
 }
 
+.beige2 {
+  background-color: #fff0d6;
+}
+
+.blue {
+  background-color: #cae3ed;
+}
+
+.green {
+  background-color: #dfedc8;
+}
+
 .gray {
   color: #737871;
+}
+
+.green {
+  color: #2e872b;
+}
+
+.off-white {
+  background-color: #fbfbfb;
+}
+
+.off-white2 {   /* used by icon sets page */
+  background-color: #f3f3f3;
 }
 
 /* Buttons */
@@ -844,6 +901,7 @@ picture .logo {
   animation: 2.5s appear2 1 ease-in;
 }
 
+
 /* ==============================
     Small devices
 ================================= */
@@ -988,7 +1046,7 @@ picture .logo {
 }
 
 /* ==============================
-Medium devices (812px and higher screens)
+Medium devices (812px and higher screens) - for Contact me page
 ================================= */
 @media only screen and (min-height: 812px) {
   #contact-page footer {
@@ -1143,6 +1201,17 @@ Medium devices (640px and larger)
 
   #money-organizer .row {
     margin-bottom: 36px;
+  }
+
+  /*  Icon-sets page  */
+
+  #icon-sets .container {
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+
+  .padding-b-36 {
+    padding-bottom: 36px;
   }
 }
 
