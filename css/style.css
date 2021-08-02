@@ -339,12 +339,6 @@ h4 {
   transform: translateY(-50%);
 }
 
-.center2 {
-  position: relative;
-  padding-top: 50%;
-  left: 25%;
-}
-
 /* Margin top to cover the header bar space */
 .margin-t-71 {
   margin-top: 71px;
@@ -652,6 +646,11 @@ h4 {
   display: table;
 }
 
+/* Icon sets */
+#icon-sets h1 {
+  font-weight: 400;
+}
+
 /* Images */
 img {
   max-width: 100%;
@@ -915,8 +914,16 @@ picture .logo {
     padding-top: 36px;
   }
 
+  .space-top-sd-40 {
+    padding-top: 40px;
+  }
+
   .space-bottom-sd {
     padding-bottom: 16px;
+  }
+
+  .space-bottom-sd-32 {
+    padding-bottom: 32px;
   }
 
   .menu-items {
@@ -956,6 +963,12 @@ picture .logo {
 
   #contact-me h1 {
     margin-top: 0;
+  }
+
+  .center-gradients {
+    align-self: center;
+    padding-top: 20px;
+    padding-bottom: 36px;
   }
 
   /*   Intro hero animation  */
@@ -1156,6 +1169,10 @@ Medium devices (640px and larger)
     display: table;
   }
 
+  .padding-t-md-60 {
+    padding-top: 60px;
+  }
+
   .space-left-md12 {
     padding-left: 12px;
   }
@@ -1170,6 +1187,10 @@ Medium devices (640px and larger)
 
   .space-top-md {
     padding-top: 12px;
+  }
+
+  .space-bottom-md-108 {
+    padding-bottom: 108px;
   }
 
   /*  Quick and Tasty  */
@@ -1212,6 +1233,12 @@ Medium devices (640px and larger)
 
   .padding-b-36 {
     padding-bottom: 36px;
+  }
+
+  .center-gradients {
+    position: relative;
+    padding-top: 30%;
+    left: 25%;
   }
 }
 
@@ -1281,6 +1308,10 @@ Large devices (1024px or larger)
     float: right;
   }
 
+  .padding-t-lg-92 {
+    padding-top: 92px;
+  }
+
   .space-left-320-lg {
     margin-left: 320px;
   }
@@ -1311,6 +1342,12 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .center-gradients {
+    position: relative;
+    padding-top: 50%;
+    left: 25%;
   }
 }
 
