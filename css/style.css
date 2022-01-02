@@ -503,6 +503,10 @@ h4 {
   padding-bottom: 44px;
 }
 
+.space-bottom-56 {
+  padding-bottom: 56px;
+}
+
 .space-bottom-x3 {
   padding-bottom: 60px;
 }
@@ -1334,6 +1338,10 @@ Large devices (1024px or larger)
 
   .space-right12-lg {
     padding-right: 12px;
+  }
+
+  .space-bottom-36-lg {
+    padding-bottom: 36px;
   }
 
   .container-lg {
