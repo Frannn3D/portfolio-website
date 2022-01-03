@@ -930,11 +930,14 @@ picture .logo {
     padding-bottom: 32px;
   }
 
+  /*  it looks this section isn't getting used
+
   .menu-items {
     position: absolute;
     top: 40px;
     right: 24px;
   }
+  */
 
   .col-sm-2 {
     width: 16.66%;
@@ -1193,6 +1196,10 @@ Medium devices (640px and larger)
     padding-top: 12px;
   }
 
+  .space-bottom-md-52 {
+    padding-bottom: 52px;
+  }
+
   .space-bottom-md-108 {
     padding-bottom: 108px;
   }
@@ -1342,6 +1349,10 @@ Large devices (1024px or larger)
 
   .space-bottom-36-lg {
     padding-bottom: 36px;
+  }
+
+  .space-bottom-72-lg {
+    padding-bottom: 72px;
   }
 
   .container-lg {
