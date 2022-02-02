@@ -1,0 +1,16 @@
+<svg id="icn_creation-icons" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="BG" opacity="0">
+    <path id="Path_1579" data-name="Path 1579" d="M35,1V35H1V1H35m1-1H0V36H36Z" fill="#e6e6e6"/>
+  </g>
+  <path id="Path_1580" data-name="Path 1580" d="M18,10.5c2-3.5,6.79-5.17,9.63-2.78s3.51,9.34-.51,13.36l-9,8.92L9,21.08c-4-4-3.49-10.86-.52-13.36" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <rect id="Rectangle_431" data-name="Rectangle 431" width="1" height="1" transform="translate(17.5 29.5)"/>
+  <path id="Path_1581" data-name="Path 1581" d="M19,29H17v2h2V29Z"/>
+  <rect id="Rectangle_432" data-name="Rectangle 432" width="2" height="2" transform="translate(8 20)"/>
+  <rect id="Rectangle_433" data-name="Rectangle 433" width="2" height="2" transform="translate(26 20)"/>
+  <rect id="Rectangle_434" data-name="Rectangle 434" width="2" height="2" transform="translate(8 7)"/>
+  <rect id="Rectangle_435" data-name="Rectangle 435" width="2" height="2" transform="translate(26 6)"/>
+  <rect id="Rectangle_436" data-name="Rectangle 436" width="2" height="2" transform="translate(17 10)"/>
+  <rect id="Rectangle_437" data-name="Rectangle 437" width="3.77" height="11.73" transform="translate(10.836 12.499) rotate(-45)" fill="#fff"/>
+  <path id="Path_1582" data-name="Path 1582" d="M13.5,10.54l7.59,7.58-2,2L11.54,12.5l2-2m0-1.42L10.12,12.5l9,9,3.38-3.38-9-9Z"/>
+  <path id="Path_1583" data-name="Path 1583" d="M13.5,9.69,9,8l1.69,4.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+</svg>

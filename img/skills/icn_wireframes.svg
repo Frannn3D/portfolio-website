@@ -1,0 +1,14 @@
+<svg id="icn_wireframes" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="BG" opacity="0">
+    <path id="Path_1636" data-name="Path 1636" d="M35,1V35H1V1H35m1-1H0V36H36Z" fill="#e6e6e6"/>
+  </g>
+  <path id="Path_1637" data-name="Path 1637" d="M26,7a1,1,0,0,1,1,1V28a1,1,0,0,1-1,1H10a1,1,0,0,1-1-1V8a1,1,0,0,1,1-1H26m0-1H10A2,2,0,0,0,8,8V28a2,2,0,0,0,2,2H26a2,2,0,0,0,2-2V8A2,2,0,0,0,26,6Z"/>
+  <path id="Path_1638" data-name="Path 1638" d="M24,10v7H12V10H24m1-1H11v9H25Z"/>
+  <path id="Path_1639" data-name="Path 1639" d="M24,21v5H20V21h4m1-1H19v7h6Z"/>
+  <line id="Line_109" data-name="Line 109" x1="13" y2="8" transform="translate(11.5 9.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_110" data-name="Line 110" x2="13" y2="8" transform="translate(11.5 9.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_111" data-name="Line 111" x2="6" transform="translate(11 20.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_112" data-name="Line 112" x2="6" transform="translate(11 23.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_113" data-name="Line 113" x2="6" transform="translate(11 26.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_114" data-name="Line 114" x2="5" y2="6" transform="translate(19.5 20.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+</svg>

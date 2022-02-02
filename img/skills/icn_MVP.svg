@@ -1,0 +1,12 @@
+<svg id="icn_MVP" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="BG" opacity="0">
+    <path id="Path_1567" data-name="Path 1567" d="M35,1V35H1V1H35m1-1H0V36H36Z" fill="#e6e6e6"/>
+  </g>
+  <path id="Path_1568" data-name="Path 1568" d="M10,23.44V26.5H9V20h2l1.5,5h0L14,20h2v6.5H15V21h0l-2,5.5H12L10,21v1"/>
+  <path id="Path_1569" data-name="Path 1569" d="M21,20h1l-1.5,6.5h-2L17,20h1l1.5,5"/>
+  <path id="Path_1570" data-name="Path 1570" d="M25,20a1.77,1.77,0,0,1,2,2,1.77,1.77,0,0,1-2,2H24v2.5H23V20Zm0,1H24v2h1a1.08,1.08,0,0,0,1-1A1,1,0,0,0,25,21Z"/>
+  <path id="Path_1571" data-name="Path 1571" d="M28,7a1,1,0,0,1,1,1V28a1,1,0,0,1-1,1H8a1,1,0,0,1-1-1V8A1,1,0,0,1,8,7H28m0-1H8A2,2,0,0,0,6,8V28a2,2,0,0,0,2,2H28a2,2,0,0,0,2-2V8A2,2,0,0,0,28,6Z"/>
+  <line id="Line_95" data-name="Line 95" x2="18" transform="translate(9 10.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_96" data-name="Line 96" x2="18" transform="translate(9 13.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_97" data-name="Line 97" x2="18" transform="translate(9 16.5)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+</svg>

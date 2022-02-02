@@ -281,18 +281,28 @@ h4 {
   margin-bottom: 0;
 }
 
-#work img {
-  border-radius: 0;
-  margin: 16px 0 4px;
-}
-
 #work {
   padding-bottom: 8px;
 }
 
 .skills {
-  font-style: italic;
-  color: #898d89;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  grid-row-gap: 4px;
+}
+
+.skills p {
+  padding-top: unset;
+}
+
+.item {
+  width: 148px;
+}
+
+.item p {
+  line-height: 36px;
 }
 
 .bold {
@@ -380,6 +390,10 @@ h4 {
 
 .space-left12 {
   padding-left: 12px;
+}
+
+.space-left-40 {
+  padding-left: 40px;
 }
 
 /* Main Column classes */
@@ -475,8 +489,17 @@ h4 {
   padding-bottom: 36px;
 }
 
+.space-vertical-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 .space-top16 {
   padding-top: 16px;
+}
+
+.space-top-20 {
+  padding-top: 20px;
 }
 
 .space-top {
@@ -485,6 +508,10 @@ h4 {
 
 .space-bottom {
   padding-bottom: 20px;
+}
+
+.space-bottom-4 {
+  padding-bottom: 4px;
 }
 
 .space-bottom12 {

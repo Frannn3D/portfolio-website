@@ -1,0 +1,12 @@
+<svg id="icn_style-guide" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="BG" opacity="0">
+    <path id="Path_1640" data-name="Path 1640" d="M35,1V35H1V1H35m1-1H0V36H36Z" fill="#e6e6e6"/>
+  </g>
+  <rect id="Rectangle_455" data-name="Rectangle 455" width="7" height="7" rx="3" transform="translate(6 23)"/>
+  <rect id="Rectangle_456" data-name="Rectangle 456" width="7" height="7" rx="3" transform="translate(14 23)"/>
+  <rect id="Rectangle_457" data-name="Rectangle 457" width="7" height="7" rx="3" transform="translate(22 23)"/>
+  <text id="Abc" transform="translate(6 19.1)" font-size="10" font-family="NotoSans-Bold, Noto Sans" font-weight="700" letter-spacing="0.04em"><tspan x="0" y="0">Abc</tspan></text>
+  <rect id="Rectangle_458" data-name="Rectangle 458" width="17.5" height="1" transform="translate(6.5 8)"/>
+  <path id="Path_1641" data-name="Path 1641" d="M22.5,10.5l2-2-2-2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path_1642" data-name="Path 1642" d="M8.5,10.5l-2-2,2-2" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+</svg>

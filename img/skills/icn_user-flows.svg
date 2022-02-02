@@ -1,0 +1,15 @@
+<svg id="icn_user-flows" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="BG" opacity="0">
+    <path id="Path_1611" data-name="Path 1611" d="M35,1V35H1V1H35m1-1H0V36H36Z" fill="#e6e6e6"/>
+  </g>
+  <path id="Path_1612" data-name="Path 1612" d="M20,7V9H15V7h5m0-1H15a1,1,0,0,0-1,1V9a1,1,0,0,0,1,1h5a1,1,0,0,0,1-1V7A1,1,0,0,0,20,6Z"/>
+  <path id="Path_1613" data-name="Path 1613" d="M20,17v2H15V17h5m0-1H15a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h5a1,1,0,0,0,1-1V17A1,1,0,0,0,20,16Z"/>
+  <path id="Path_1614" data-name="Path 1614" d="M20,24v2H15V24h5m0-1H15a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h5a1,1,0,0,0,1-1V24A1,1,0,0,0,20,23Z"/>
+  <path id="Path_1615" data-name="Path 1615" d="M11,17v2H7V17h4m0-1H7a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V17A1,1,0,0,0,11,16Z"/>
+  <path id="Path_1616" data-name="Path 1616" d="M29,17v2H25V17h4m0-1H25a1,1,0,0,0-1,1v2a1,1,0,0,0,1,1h4a1,1,0,0,0,1-1V17A1,1,0,0,0,29,16Z"/>
+  <line id="Line_105" data-name="Line 105" y2="6" transform="translate(17.5 10)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path_1617" data-name="Path 1617" d="M27.5,16V12.5H8.5V16" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_106" data-name="Line 106" y2="4" transform="translate(17.5 19)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_107" data-name="Line 107" y2="4" transform="translate(17.5 26)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+  <path id="Path_1618" data-name="Path 1618" d="M27.5,19v6.5h-7" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+</svg>

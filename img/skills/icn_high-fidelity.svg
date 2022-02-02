@@ -1,0 +1,15 @@
+<svg id="icn_high-fidelity" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="BG" opacity="0">
+    <path id="Path_1584" data-name="Path 1584" d="M35,1V35H1V1H35m1-1H0V36H36Z" fill="#e6e6e6"/>
+  </g>
+  <rect id="Rectangle_438" data-name="Rectangle 438" width="6" height="7" transform="translate(18 14)"/>
+  <rect id="Rectangle_439" data-name="Rectangle 439" width="12" height="3" transform="translate(12 9)"/>
+  <path id="Path_1585" data-name="Path 1585" d="M24.49,6h-13A2.52,2.52,0,0,0,9,8.51V23h1V8.51A1.52,1.52,0,0,1,11.51,7h13A1.52,1.52,0,0,1,26,8.51v19A1.52,1.52,0,0,1,24.49,29H18v1h6.49A2.52,2.52,0,0,0,27,27.49v-19A2.52,2.52,0,0,0,24.49,6Z"/>
+  <rect id="Rectangle_440" data-name="Rectangle 440" width="6" height="1" transform="translate(18 26)"/>
+  <rect id="Rectangle_441" data-name="Rectangle 441" width="6" height="1" transform="translate(18 23)"/>
+  <rect id="Rectangle_442" data-name="Rectangle 442" width="4" height="1" transform="translate(12 20)"/>
+  <rect id="Rectangle_443" data-name="Rectangle 443" width="4" height="1" transform="translate(12 17)"/>
+  <rect id="Rectangle_444" data-name="Rectangle 444" width="4" height="1" transform="translate(12 14)"/>
+  <path id="Path_1586" data-name="Path 1586" d="M10.4,30.08H9.19V27.62H6.93v2.46H5.72V24.37H6.93v2.24H9.19V24.37H10.4Z"/>
+  <path id="Path_1587" data-name="Path 1587" d="M16.58,27.17a2.78,2.78,0,0,1-.83,2.18,3.32,3.32,0,0,1-2.29.73H11.84V24.37h1.79a3.45,3.45,0,0,1,1.56.32,2.32,2.32,0,0,1,1,.94,3.05,3.05,0,0,1,.39,1.54Zm-1.26,0a2,2,0,0,0-.42-1.39,1.55,1.55,0,0,0-1.2-.45h-.65v3.72h.52c1.17.03,1.75-.6,1.75-1.85Z"/>
+</svg>
