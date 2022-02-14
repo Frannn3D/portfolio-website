@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="50" viewBox="0 0 150 50">
   <defs>
-    <clipPath id="clip-Logo_4">
+    <clipPath id="clip-logo-desktop">
       <rect width="150" height="50"/>
     </clipPath>
   </defs>
-  <g id="Logo_4" data-name="Logo – 4" clip-path="url(#clip-Logo_4)">
+  <g id="logo-desktop" clip-path="url(#clip-logo-desktop)">
     <g id="Group_444" data-name="Group 444" transform="translate(-2 1)">
       <text id="Francesca_Paris" data-name="Francesca Paris" transform="translate(1 22)" font-size="24" font-family="Futura-Book, Futura Bk" letter-spacing="-0.032em"><tspan x="0" y="0">Francesca Paris</tspan></text>
-      <text id="UI_Design" data-name="UI Design" transform="translate(1 42)" fill="#393939" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">UI Design</tspan></text>
+      <text id="UI_UX_Design" data-name="UI / UX Design" transform="translate(1 42)" fill="#585858" font-size="14" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">UI / UX Design</tspan></text>
     </g>
   </g>
 </svg>
