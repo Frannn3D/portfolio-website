@@ -350,6 +350,7 @@ h4 {
 }
 
 /* Margin top to cover the header bar space */
+
 .mt-71 {
   margin-top: 71px;
 }
@@ -394,6 +395,66 @@ h4 {
 
 .pl-40 {
   padding-left: 40px;
+}
+
+/* Space top and bottom */
+
+.space-vertical {
+  padding-top: 24px;
+  padding-bottom: 36px;
+}
+
+.space-vertical-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.pt-16 {
+  padding-top: 16px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-24 {
+  padding-top: 24px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-4 {
+  padding-bottom: 4px;
+}
+
+.pb-12 {
+  padding-bottom: 12px;
+}
+
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.pb-36 {
+  padding-bottom: 36px;
+}
+
+.pb-44 {
+  padding-bottom: 44px;
+}
+
+.pb-56 {
+  padding-bottom: 56px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pb-140 {
+  padding-bottom: 140px;
 }
 
 /* Main Column classes */
@@ -443,7 +504,26 @@ h4 {
   border: 2px solid #e1e6ec;
   border-radius: 4px;
   opacity: 1;
-  width: 275px;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+}
+
+.process-line {
+  grid-row: 1;
+}
+
+.process-desc {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.gc-1 {
+  grid-column: 1;
+}
+
+.gc-3 {
+  grid-column: 3;
 }
 
 .flex {
@@ -495,64 +575,6 @@ h4 {
 
 #quick-tasty img {
   padding: 32px 0 52px;
-}
-
-.space-vertical {
-  padding-top: 24px;
-  padding-bottom: 36px;
-}
-
-.space-vertical-16 {
-  padding-top: 16px;
-  padding-bottom: 16px;
-}
-
-.space-top16 {
-  padding-top: 16px;
-}
-
-.space-top-20 {
-  padding-top: 20px;
-}
-
-.space-top {
-  padding-top: 24px;
-}
-
-.space-bottom {
-  padding-bottom: 20px;
-}
-
-.space-bottom-4 {
-  padding-bottom: 4px;
-}
-
-.space-bottom12 {
-  padding-bottom: 12px;
-}
-
-.space-bottom24 {
-  padding-bottom: 24px;
-}
-
-.space-bottom36 {
-  padding-bottom: 36px;
-}
-
-.space-bottom44 {
-  padding-bottom: 44px;
-}
-
-.space-bottom-56 {
-  padding-bottom: 56px;
-}
-
-.space-bottom-x3 {
-  padding-bottom: 60px;
-}
-
-.space-bottom-140 {
-  padding-bottom: 140px;
 }
 
 #styleguide img {
@@ -888,6 +910,16 @@ picture .logo {
   }
 }
 
+@keyframes move-up2 {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-148px);
+  }
+}
+
 @keyframes appear {
   0% {
     opacity: 0;
@@ -941,6 +973,10 @@ picture .logo {
 .headline-appear1 {
   opacity: 1;
   animation: 2.5s appear 1 ease-in;
+}
+
+.cards-up {
+  animation: 1s move-up2 1 ease-out;
 }
 
 .headline-appear2 {
@@ -1219,7 +1255,7 @@ Medium devices (640px and larger)
     display: table;
   }
 
-  .mpt-140 {
+  .mpt-60 {
     padding-top: 60px;
   }
 
