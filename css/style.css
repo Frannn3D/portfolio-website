@@ -10,10 +10,10 @@ Layout colour - almost black: 323A30;
 
 body {
   background-color: #fff;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.5;  /* Sets the line-height to 1.25 * the font-size = 20px */
+  line-height: 1.5; /* Sets the line-height to 1.25 * the font-size = 20px */
   color: #000;
 }
 
@@ -63,7 +63,7 @@ footer a {
 a {
   font-weight: 400;
   color: #000;
-  text-decoration: underline;  /* No underlining */
+  text-decoration: underline; /* No underlining */
 }
 
 a:hover,
@@ -121,7 +121,7 @@ nav > ul {
 .icon a:hover::before,
 .icon a:focus::before {
   transition: unset;
-  content: '';
+  content: "";
   transform: scaleX(0) translateY(0);
 }
 
@@ -154,7 +154,7 @@ nav > ul > li > a {
 }
 
 nav > ul > li > a::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 28px;
   right: 0;
@@ -168,7 +168,7 @@ nav > ul > li > a::before {
 nav > ul > li > a:hover::before,
 nav > ul > li > a:focus::before {
   position: absolute;
-  content: '';
+  content: "";
   transform: scaleX(1) translateY(+5px);
 }
 
@@ -187,7 +187,7 @@ nav > ul > li > a:active {
 
 nav > ul > li > a::after {
   transition: 0.3s;
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   left: 50%;
@@ -207,14 +207,14 @@ h4 {
 
 h1 {
   line-height: 1.25;
-  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
   font-size: 3em;
   font-weight: 200;
   margin: 40px 0 20px;
 }
 
 h2 {
-  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
   font-size: 2em;
   font-weight: 400;
   padding: 20px 0 16px;
@@ -234,7 +234,7 @@ h4 {
 
 /* Other classes */
 .overline {
-  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-family: "Encode Sans Semi Condensed", sans-serif;
   font-size: 0.75em;
   font-weight: 500;
   text-transform: uppercase;
@@ -253,11 +253,11 @@ h4 {
 }
 
 .row {
-  margin: 0 0 48px;  /* 25px top and bottom, 0 left and right */
+  margin: 0 0 48px; /* 25px top and bottom, 0 left and right */
 }
 
 .row-nm {
-  margin: 0;  /* 25px top and bottom, 0 left and right */
+  margin: 0; /* 25px top and bottom, 0 left and right */
 }
 
 .section {
@@ -360,6 +360,10 @@ h4 {
   padding-top: 4px;
 }
 
+.pt-80 {
+  padding-top: 80px;
+}
+
 .pt-8 {
   padding-top: 8px;
 }
@@ -381,6 +385,11 @@ h4 {
 }
 
 /* Space left */
+
+.ml-24 {
+  margin-left: 24px;
+}
+
 .pl-36 {
   padding-left: 36px;
 }
@@ -457,6 +466,10 @@ h4 {
   padding-bottom: 140px;
 }
 
+.mb-28 {
+  margin-bottom: 28px;
+}
+
 /* Main Column classes */
 .col-4 {
   width: 33.33%;
@@ -498,42 +511,6 @@ h4 {
 
 /*  Quick & Tasty page  */
 
-.card {
-  background: #fbfbfb 0% 0% no-repeat padding-box;
-  box-shadow: 0 3px 12px #0000001a;
-  border: 2px solid #e1e6ec;
-  border-radius: 4px;
-  opacity: 1;
-  display: grid;
-  grid-template-columns: 40% 20% 40%;
-}
-
-.process-line {
-  grid-row: 1;
-}
-
-.process-desc {
-  grid-row: 2;
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-
-.gc-1 {
-  grid-column: 1;
-}
-
-.gc-3 {
-  grid-column: 3;
-}
-
-.flex {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 12px;
-}
-
 .caption-pp {
   /* caption Pain points */
   position: relative;
@@ -559,23 +536,23 @@ h4 {
   margin-bottom: 24px;
 }
 
-#quick-tasty h1 {
+/* #quick-tasty h1 {
   margin-top: 32px;
   margin-bottom: 32px;
-}
+} */
 
 .color-light {
   color: #e2e2e2;
 }
 
-#quick-tasty h2 {
+/* #quick-tasty h2 {
   padding-top: 0;
   padding-bottom: 4px;
-}
+} */
 
-#quick-tasty img {
+/* #quick-tasty img {
   padding: 32px 0 52px;
-}
+} */
 
 #styleguide img {
   padding: 4px 0 0;
@@ -765,7 +742,8 @@ picture .logo {
   background-color: #fbfbfb;
 }
 
-.off-white2 {   /* used by icon sets page */
+.off-white2 {
+  /* used by icon sets page */
   background-color: #f3f3f3;
 }
 
@@ -774,9 +752,9 @@ picture .logo {
   position: relative;
   display: inline-block;
   border: 3px solid #11847c;
-  transition: transform 300ms ease-in-out;  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  transition: transform 300ms ease-in-out; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: var(--background-color);
-  color: #11847c;  /* needed to override the default link color */
+  color: #11847c; /* needed to override the default link color */
   font-weight: 500;
   text-decoration: none;
   padding: 12px 28px;
@@ -791,7 +769,7 @@ picture .logo {
 }
 
 .button::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   right: 0;
@@ -818,7 +796,7 @@ picture .logo {
 
 .button::after {
   transition: 0.3s;
-  content: '';
+  content: "";
   position: absolute;
   width: 0;
   left: 50%;
@@ -910,16 +888,6 @@ picture .logo {
   }
 }
 
-@keyframes move-up2 {
-  0% {
-    transform: translateY(0);
-  }
-
-  100% {
-    transform: translateY(-148px);
-  }
-}
-
 @keyframes appear {
   0% {
     opacity: 0;
@@ -975,8 +943,8 @@ picture .logo {
   animation: 2.5s appear 1 ease-in;
 }
 
-.cards-up {
-  animation: 1s move-up2 1 ease-out;
+.active .all-cards {
+  padding-top: 40px;
 }
 
 .headline-appear2 {
