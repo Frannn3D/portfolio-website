@@ -29,6 +29,7 @@ COLOURS
   display: flex;
   gap: 16px;
   align-items: stretch;
+  height: 649px;
 }
 
 .gap-36 {
@@ -66,8 +67,38 @@ COLOURS
   padding: 64px;
 }
 
-.process-section .process-cards :not(strong) {
+.process-section .process-cards .label :not(strong) {
   font-weight: 400;
+}
+
+#card1 .label {
+  background-color: #0d3b66;
+  color: #fff;
+}
+
+#card1 .step-title {
+  color: #fff;
+}
+
+#card2 .label {
+  background-color: #faf0ca;
+}
+
+#card3 .label {
+  background-color: #f4d35e;
+}
+
+#card4 .label {
+  background-color: #ffb270;
+}
+
+#card5 .label {
+  background-color: #c95050;
+  color: #fff;
+}
+
+#card5 .step-title {
+  color: #fff;
 }
 
 .process-card {
@@ -118,18 +149,12 @@ COLOURS
 }
 
 .label {
+  padding-top: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  background-color: aquamarine;
   /* height: 606px; */
   width: 55px;
-}
-
-.content-title {
-  font-size: 20px;
-  font-weight: 500;
 }
 
 .content-step {
@@ -138,8 +163,13 @@ COLOURS
   line-height: 24px;
 }
 
+.content-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .step-title {
-  margin-top: 210px;
+  margin-top: 220px;
   width: 450px;
   text-align: left;
   font-family: roboto, sans-serif;
@@ -163,6 +193,13 @@ COLOURS
   gap: 28px;
 }
 
+.grid-card2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  height: 100%;
+}
+
 .card2-text {
   margin-top: auto;
   margin-bottom: auto;
@@ -175,7 +212,22 @@ COLOURS
 }
 
 .image2 {
-  height: 100%;
+  object-fit: cover;
+}
+
+.pain-points-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 36px;
+}
+
+.pain-points-grid > div p:first-child {
+  padding: 0;
+}
+
+#card4 p {
+  padding: 0;
 }
 
 /* NEEDS SECTION */
