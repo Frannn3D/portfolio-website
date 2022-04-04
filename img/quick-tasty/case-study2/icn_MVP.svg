@@ -1,0 +1,15 @@
+<svg id="icn_MVP" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="BG" opacity="0">
+    <path id="Path_1567" data-name="Path 1567" d="M42.778,1.222V42.778H1.222V1.222H42.778M44,0H0V44H44Z" fill="#e6e6e6"/>
+  </g>
+  <path id="Path_1568" data-name="Path 1568" d="M10.227,24.22v3.754H9V20h2.454l1.84,6.134h0L15.134,20h2.454v7.974H16.361V21.227h0l-2.454,6.747H12.68l-2.454-6.747v1.227" transform="translate(1.99 4.424)" fill="#414057"/>
+  <path id="Path_1569" data-name="Path 1569" d="M21.907,20h1.227l-1.84,7.974H18.84L17,20h1.227l1.84,6.134" transform="translate(3.765 4.424)" fill="#414057"/>
+  <path id="Path_1570" data-name="Path 1570" d="M25.454,20a2.171,2.171,0,0,1,2.454,2.454,2.171,2.171,0,0,1-2.454,2.454H24.227v3.067H23V20Zm0,1.227H24.227v2.454h1.227a1.325,1.325,0,0,0,1.227-1.227A1.227,1.227,0,0,0,25.454,21.231Z" transform="translate(5.098 4.42)" fill="#414057"/>
+  <line id="Line_95" data-name="Line 95" x2="22.082" transform="translate(10.959 12.833)" fill="none" stroke="#414057" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_96" data-name="Line 96" x2="22.082" transform="translate(10.959 16.5)" fill="none" stroke="#414057" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_97" data-name="Line 97" x2="22.082" transform="translate(10.959 20.167)" fill="none" stroke="#414057" stroke-miterlimit="10" stroke-width="1"/>
+  <g id="Rectangle_470" data-name="Rectangle 470" transform="translate(7 7)" fill="none" stroke="#414057" stroke-width="2">
+    <rect width="30" height="30" rx="2" stroke="none"/>
+    <rect x="1" y="1" width="28" height="28" rx="1" fill="none"/>
+  </g>
+</svg>

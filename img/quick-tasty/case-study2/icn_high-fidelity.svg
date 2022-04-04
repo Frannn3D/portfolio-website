@@ -1,0 +1,15 @@
+<svg id="icn_high-fidelity" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="BG" opacity="0">
+    <path id="Path_1584" data-name="Path 1584" d="M42.778,1.222V42.778H1.222V1.222H42.778M44,0H0V44H44Z" fill="#e6e6e6"/>
+  </g>
+  <rect id="Rectangle_438" data-name="Rectangle 438" width="7" height="9" transform="translate(22.007 17.006)" fill="#414057"/>
+  <rect id="Rectangle_439" data-name="Rectangle 439" width="14" height="4" transform="translate(15.006 11.003)" fill="#414057"/>
+  <path id="Path_1585" data-name="Path 1585" d="M27.927,6H12.042A3.08,3.08,0,0,0,9,9.068V26.781h1.222V9.068a1.858,1.858,0,0,1,1.845-1.846H27.951a1.858,1.858,0,0,1,1.821,1.846V32.294a1.858,1.858,0,0,1-1.845,1.821H20v1.222h7.93a3.08,3.08,0,0,0,3.067-3.068V9.044A3.08,3.08,0,0,0,27.927,6Z" transform="translate(2.003 1.331)" fill="#414057"/>
+  <rect id="Rectangle_440" data-name="Rectangle 440" width="7" height="1" transform="translate(22.007 32.009)" fill="#414057"/>
+  <rect id="Rectangle_441" data-name="Rectangle 441" width="7" height="1" transform="translate(22.007 28.008)" fill="#414057"/>
+  <rect id="Rectangle_442" data-name="Rectangle 442" width="5" height="2" transform="translate(15.005 24.007)" fill="#414057"/>
+  <rect id="Rectangle_443" data-name="Rectangle 443" width="5" height="1" transform="translate(15.005 21.006)" fill="#414057"/>
+  <rect id="Rectangle_444" data-name="Rectangle 444" width="5" height="1" transform="translate(15.005 17.005)" fill="#414057"/>
+  <path id="Path_1586" data-name="Path 1586" d="M11.438,31.347H9.96V28.341H7.2v3.006H5.72V24.37H7.2v2.737H9.96V24.37h1.478Z" transform="translate(1.271 5.417)" fill="#414057"/>
+  <path id="Path_1587" data-name="Path 1587" d="M17.632,27.792a3.4,3.4,0,0,1-1.014,2.664,4.057,4.057,0,0,1-2.8.892H11.84V24.37h2.187a4.215,4.215,0,0,1,1.906.391,2.835,2.835,0,0,1,1.222,1.149,3.727,3.727,0,0,1,.477,1.882Zm-1.54,0a2.444,2.444,0,0,0-.513-1.7,1.894,1.894,0,0,0-1.466-.55h-.794v4.545h.635c1.43.037,2.138-.733,2.138-2.26Z" transform="translate(2.632 5.417)" fill="#414057"/>
+</svg>
