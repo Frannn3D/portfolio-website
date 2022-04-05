@@ -22,15 +22,24 @@ console.log(height1);
 //   i++;
 // }
 
-const cardsFunction = function () {
-  card.classList.toggle("closed");
-  let activeCard = cardsArr.find((card) => card.classList.contains("active"));
-  console.log(activeCard);
-  activeCard.classList.remove("active");
-  activeCard.classList.add("closed");
-  card.classList.add("active");
-};
+cardsArr.forEach((card) => {
+  card.addEventListener("click", function () {
+    card.classList.toggle("closed");
+    let activeCard = cardsArr.find((card) => card.classList.contains("active"));
+    console.log(activeCard);
+    activeCard.classList.remove("active");
+    activeCard.classList.add("closed");
+    card.classList.add("active");
+  });
+});
 
 cardsArr.forEach((card) => {
-  card.addEventListener("click", cardsFunction);
+  card.addEventListener("touchstart", function () {
+    card.classList.toggle("closed");
+    let activeCard = cardsArr.find((card) => card.classList.contains("active"));
+    console.log(activeCard);
+    activeCard.classList.remove("active");
+    activeCard.classList.add("closed");
+    card.classList.add("active");
+  });
 });
