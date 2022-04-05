@@ -2,8 +2,8 @@
   <g id="BG" opacity="0">
     <rect id="Rectangle_452" data-name="Rectangle 452" width="44" height="44" fill="none"/>
   </g>
-  <path id="Path_1623" data-name="Path 1623" d="M27.295,28.25a11.955,11.955,0,0,0,4.49-9.923A11.875,11.875,0,0,0,19.642,6.5,11.875,11.875,0,0,0,7.5,18.327,12.677,12.677,0,0,0,19.958,30.785a7.443,7.443,0,0,0,3.934-.607" transform="translate(1.607 1.392)" fill="none" stroke="#414057" stroke-miterlimit="10" stroke-width="2"/>
-  <circle id="Ellipse_96" data-name="Ellipse 96" cx="4.25" cy="4.25" r="4.25" transform="translate(16.999 11.535)" fill="#414057"/>
-  <path id="Path_1624" data-name="Path 1624" d="M18.814,24.285a7.2,7.2,0,0,0,5.828-3.036C24.642,18.821,21,17,18.571,17S12.5,19.428,12.5,21.25C13.107,23.071,16.531,24.285,18.814,24.285Z" transform="translate(2.678 3.642)" fill="#414057" stroke="#414057" stroke-miterlimit="10" stroke-width="1"/>
-  <line id="Line_108" data-name="Line 108" x2="7.893" y2="7.893" transform="translate(29.142 28.534)" fill="none" stroke="#414057" stroke-miterlimit="10" stroke-width="2"/>
+  <path id="Path_1623" data-name="Path 1623" d="M27.295,28.25a11.955,11.955,0,0,0,4.49-9.923A11.875,11.875,0,0,0,19.642,6.5,11.875,11.875,0,0,0,7.5,18.327,12.677,12.677,0,0,0,19.958,30.785a7.443,7.443,0,0,0,3.934-.607" transform="translate(1.607 1.392)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+  <circle id="Ellipse_96" data-name="Ellipse 96" cx="4.25" cy="4.25" r="4.25" transform="translate(16.999 11.535)" fill="#fff"/>
+  <path id="Path_1624" data-name="Path 1624" d="M18.814,24.285a7.2,7.2,0,0,0,5.828-3.036C24.642,18.821,21,17,18.571,17S12.5,19.428,12.5,21.25C13.107,23.071,16.531,24.285,18.814,24.285Z" transform="translate(2.678 3.642)" fill="#fff" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+  <line id="Line_108" data-name="Line 108" x2="7.893" y2="7.893" transform="translate(29.142 28.534)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
 </svg>
