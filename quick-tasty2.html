@@ -89,37 +89,40 @@
     <main>
       <div class="container" id="quick-tasty">
         <!-- Intro image -->
-        <div class="row">
-          <div class="col-12">
+        <section class="hero-section">
+          <div>
             <picture>
               <source
-                srcset="img/quick-tasty/case-study/intro2@4x.png"
+                srcset="img/quick-tasty/case-study2/intro2@4x.png"
                 media="(min-width:1024px)"
               />
-              <source
+              <!-- <source
                 srcset="img/quick-tasty/case-study/intro2@3x.png"
                 media="(min-width:640px)"
-              />
+              /> -->
               <source
-                srcset="img/quick-tasty/case-study/intro2@2x.png"
+                srcset="img/quick-tasty/case-study2/intro2@2x.jpg"
                 media="(min-width:400px)"
               />
               <img
-                src="img/quick-tasty/case-study/intro2@1x.png"
+                srcset="img/quick-tasty/case-study2/intro2@1x.png"
                 alt="Quick & Tasty app intro screens"
                 class="center"
               />
             </picture>
+  
+            
           </div>
-        </div>
+        </section>
         <!-- Process section -->
         <section class="process-section h1024">
           <h1>The Process</h1>
           <div class="process-cards">
             <div class="flex-cards">
               <!-- CARD 1 -->
-              <div id="card1" class="flex-row process-card active">
-                <div class="label">
+              <div id="card1" class="flex process-card active">
+                <a href="javascript:void(0);" onclick="cardsFunction()">
+                  <div class="label">
                   <img
                     src="img/quick-tasty/case-study2/icn_user-research.svg"
                     width="44px"
@@ -127,7 +130,7 @@
                   />
                   <div class="process-number">1</div>
                   <div class="rotate-90 step-title">Discovery</div>
-                </div>
+                </div></a>
                 <div class="process-content">
                   <div class="grid-2col">
                     <div>
@@ -193,7 +196,8 @@
               </div>
 
               <!-- CARD 2 -->
-              <div id="card2" class="flex-row process-card closed">
+              <div id="card2" class="flex process-card closed">
+                <a href="javascript:void(0);" onclick="cardsFunction()">
                 <div class="label">
                   <img
                     src="img/quick-tasty/case-study2/icn_MVP.svg"
@@ -203,7 +207,7 @@
 
                   <div class="process-number">2</div>
                   <div class="rotate-90 step-title">Definition</div>
-                </div>
+                </div></a>
                 <!-- Card Content -->
                 <div class="process-content">
                   <div class="grid-card2">
@@ -239,7 +243,8 @@
               </div>
 
               <!-- CARD 3 -->
-              <div id="card3" class="flex-row process-card closed">
+              <div id="card3" class="flex process-card closed">
+                <a href="javascript:void(0);" onclick="cardsFunction()">
                 <div class="label">
                   <img
                     src="img/quick-tasty/case-study2/icn_user-testing.svg"
@@ -251,12 +256,12 @@
                   <div class="rotate-90 step-title">
                     Rough prototype & testing
                   </div>
-                </div>
+                </div></a>
                 <!-- Card content -->
                 <div class="process-content">
                   <div>
                     <div>
-                      <div class="grid-2col mb-48">
+                      <div class="grid-2col mb-48-m">
                         <div>
                           <p>
                             I created some wireframes and a rough prototype with
@@ -313,7 +318,8 @@
               </div>
 
               <!-- CARD 4 -->
-              <div id="card4" class="flex-row process-card closed">
+              <div id="card4" class="flex process-card closed">
+                <a href="javascript:void(0);" onclick="cardsFunction()">
                 <div class="label">
                   <img
                     src="img/quick-tasty/case-study2/icn_high-fidelity.svg"
@@ -325,10 +331,10 @@
                   <div class="rotate-90 step-title">
                     Hi-fi screens & a/b Testing
                   </div>
-                </div>
+                </div></a>
                 <div class="process-content">
                   <div class="grid-2col">
-                      <p class="mb-48">
+                      <p class="mb-48-m">
                         I created the style guide and the high-fidelity screens.
                       </p>
                     <div>&nbsp;</div>
@@ -355,7 +361,8 @@
               </div>
 
               <!-- CARD 5 -->
-              <div id="card5" class="flex-row process-card closed">
+              <div id="card5" class="flex process-card closed">
+                <a href="javascript:void(0);" onclick="cardsFunction()">
                 <div class="label">
                   <img
                     src="img/quick-tasty/case-study2/icn_mock-up.svg"
@@ -365,7 +372,7 @@
 
                   <div class="process-number">5</div>
                   <div class="rotate-90 step-title">Finalization</div>
-                </div>
+                </div></a>
                 <div class="process-content">
                   <div class="grid-2col mb-28">
                     <div>
@@ -384,6 +391,10 @@
             </div>
           </div>
         </section>
+
+
+<!-- User needs section -->
+
         <section class="needs-section">
           <h1>User Needs & Solutions</h1>
           <div class="grid-needs">
@@ -416,8 +427,8 @@
               <picture>
                  <source srcset="img/quick-tasty/case-study2/user-needs-1@4x.webp" media="(min-width:1024px)" type="image/webp">
                  <source srcset="img/quick-tasty/case-study2/user-needs-1@3x.png" media="(min-width:1024px)" type="image/png">
-                 <source srcset="img/quick-tasty/case-study2/user-needs-1@1x.webp" media="(max-width:1023px)" type="image/webp">
-                 <source srcset="img/quick-tasty/case-study2/user-needs-1@1x.jpg" media="(max-width:1023px)" type="image/png">
+                 <source srcset="img/quick-tasty/case-study2/user-needs-1@1x.webp" media="(max-width:640px)" type="image/webp">
+                 <source srcset="img/quick-tasty/case-study2/user-needs-1@1x.jpg" media="(max-width:640px)" type="image/png">
                  <img src="img/quick-tasty/case-study2/user-needs-1@3x.png" alt="The mobile screens. one next to the other. One screen shows filters with choices for difficulty, time and taste. The other shows some recipes under the category of Sweet taste."/>
               </picture>
                 
@@ -469,6 +480,8 @@
             </div>
           </div>
         </section>
+
+<!-- Responsive section -->
         <section class="responsive-section">
           <h1>Responsive screens</h1>
           <img
@@ -476,6 +489,8 @@
             alt="The mobile screens. one next to the other. One screen shows filters with choices for difficulty, time and taste. The other shows some recipes under the category of Sweet taste."
           />
         </section>
+
+<!-- final section -->
         <section class="final-screens-section">
           <h1>Final screens</h1>
           <img

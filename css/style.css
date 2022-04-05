@@ -477,10 +477,6 @@ h4 {
   margin-bottom: 28px;
 }
 
-.mb-48 {
-  margin-bottom: 48px;
-}
-
 /* Main Column classes */
 .col-4 {
   width: 33.33%;
@@ -1260,6 +1256,10 @@ Medium devices (640px and larger)
 
   .mpb-108 {
     padding-bottom: 108px;
+  }
+
+  .mb-48-m {
+    margin-bottom: 48px;
   }
 
   /*  Quick and Tasty  */

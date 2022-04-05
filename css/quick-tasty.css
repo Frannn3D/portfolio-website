@@ -21,7 +21,7 @@ COLOURS
   flex-direction: column;
 }
 
-.flex-row {
+.flex {
   display: flex;
 }
 
@@ -59,6 +59,11 @@ COLOURS
 
 #quick-tasty strong {
   font-weight: 500;
+}
+
+/* HERO SECTION */
+.hero-section {
+  background-color: #323b52;
 }
 
 /* PROCESS SECTION */
@@ -261,4 +266,103 @@ COLOURS
   letter-spacing: 0.15px;
   color: #323a30;
   font-weight: normal;
+}
+
+/* Responsive area */
+
+/* medium screens */
+@media only screen and (max-width: 1023px) {
+  .process-section.h1024 {
+    height: unset;
+  }
+
+  .process-card {
+    min-height: unset;
+    width: unset;
+    max-height: 800px;
+    /* height: 600px; */
+  }
+
+  .flex-cards {
+    flex-direction: column;
+    height: unset;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .label {
+    flex-direction: row;
+    padding: 0 16px;
+    gap: 16px;
+    height: 55px;
+    width: unset;
+  }
+
+  .process-card.closed {
+    max-height: 55px;
+    width: unset;
+  }
+
+  .rotate-90 {
+    transform: unset;
+  }
+
+  .step-title {
+    margin-top: unset;
+    line-height: 1.1;
+  }
+
+  .grid-needs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .needs-section .needs-description {
+    margin-top: 60px;
+  }
+}
+
+/* small screens */
+@media only screen and (max-width: 600px) {
+  .grid-2col {
+    grid-template-columns: 1fr;
+  }
+
+  .process-card {
+    max-height: 1000px;
+  }
+
+  .process-card.closed {
+    max-height: 72px;
+  }
+
+  .label {
+    height: 72px;
+  }
+
+  .grid-card2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card2-image {
+    order: -1;
+    max-height: 120px;
+  }
+
+  .pain-points-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* large screens */
+@media only screen and (min-width: 1024px) {
+  .hero-section {
+    background-color: unset;
+  }
 }
