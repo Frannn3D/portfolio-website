@@ -38,7 +38,7 @@ cardsArr.forEach((card) => {
 
 cardsArr.forEach((card) => {
   card.addEventListener("touchstart", function (e) {
-    e.preventDefault();
+    // e.preventDefault();
     if (!touched) {
       touched = true;
       card.classList.toggle("closed");
