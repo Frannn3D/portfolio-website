@@ -36,25 +36,25 @@ cardsArr.forEach((card) => {
   });
 });
 
-cardsArr.forEach((card) => {
-  card.addEventListener("touchstart", function (e) {
-    e.preventDefault(); // without it, the desktop version will detect multiple clicks / touchstart?
-    if (!touched) {
-      touched = true;
-      card.classList.toggle("closed");
-      let activeCard = cardsArr.find((card) =>
-        card.classList.contains("active")
-      );
-      console.log(activeCard);
-      activeCard.classList.remove("active");
-      activeCard.classList.add("closed");
-      card.classList.add("active");
-      setTimeout(function () {
-        touched = false;
-      }, 500);
-    }
-  });
-});
+// cardsArr.forEach((card) => {
+//   card.addEventListener("touchstart", function (e) {
+//     e.preventDefault(); // without it, the desktop version will detect multiple clicks / touchstart, closing immediately after the card
+//     if (!touched) {
+//       touched = true;
+//       card.classList.toggle("closed");
+//       let activeCard = cardsArr.find((card) =>
+//         card.classList.contains("active")
+//       );
+//       console.log(activeCard);
+//       activeCard.classList.remove("active");
+//       activeCard.classList.add("closed");
+//       card.classList.add("active");
+//       setTimeout(function () {
+//         touched = false;
+//       }, 500);
+//     }
+//   });
+// });
 
 // cardsArr.forEach((card) => {
 //   card.addEventListener("touchstart", function () {
