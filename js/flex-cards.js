@@ -51,7 +51,7 @@ cardsArr.forEach((card) => {
       card.classList.add("active");
       setTimeout(function () {
         touched = false;
-      }, 100);
+      }, 500);
     }
   });
 });
