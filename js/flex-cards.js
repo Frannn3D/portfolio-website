@@ -33,8 +33,6 @@ cardsArr.forEach((card) => {
     activeCard.classList.remove("active");
     activeCard.classList.add("closed");
     card.classList.add("active");
-
-    //
   });
 });
 
@@ -42,9 +40,6 @@ cardsArr.forEach((card) => {
   card.addEventListener("touchstart", function () {
     if (!touched) {
       touched = true;
-      setTimeout(function () {
-        touched = false;
-      }, 100);
       card.classList.toggle("closed");
       let activeCard = cardsArr.find((card) =>
         card.classList.contains("active")
@@ -53,7 +48,29 @@ cardsArr.forEach((card) => {
       activeCard.classList.remove("active");
       activeCard.classList.add("closed");
       card.classList.add("active");
+      setTimeout(function () {
+        touched = false;
+      }, 100);
     }
-    return false;
   });
 });
+
+// cardsArr.forEach((card) => {
+//   card.addEventListener("touchstart", function () {
+//     if (!touched) {
+//       touched = true;
+//       setTimeout(function () {
+//         touched = false;
+//       }, 100);
+//       card.classList.toggle("closed");
+//       let activeCard = cardsArr.find((card) =>
+//         card.classList.contains("active")
+//       );
+//       console.log(activeCard);
+//       activeCard.classList.remove("active");
+//       activeCard.classList.add("closed");
+//       card.classList.add("active");
+//     }
+//     return false;
+//   });
+// });
