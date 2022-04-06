@@ -41,6 +41,7 @@ cardsArr.forEach((card) => {
       activeCard.classList.add("closed");
       card.classList.add("active");
     }
+    return false;
   });
 });
 
