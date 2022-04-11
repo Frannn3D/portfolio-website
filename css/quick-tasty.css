@@ -69,6 +69,7 @@ COLOURS
 /* PROCESS SECTION */
 
 .process-section {
+  position: relative;
   padding: 64px;
 }
 
@@ -122,7 +123,7 @@ COLOURS
   border: 1px solid #dedede;
   border-radius: 16px;
   overflow: hidden;
-  transition: all 0.3s;
+  transition: all ease-in-out 0.4s;
   color: #414057;
 }
 
@@ -159,6 +160,7 @@ COLOURS
   /* height: 606px; */
   width: 55px;
   height: 100%;
+  cursor: pointer;
 }
 
 .content-step {
@@ -232,6 +234,14 @@ COLOURS
 
 #card4 p {
   padding: 0;
+}
+
+.attribution {
+  position: absolute;
+  font-size: 12px;
+  color: #5b5b5b;
+  font-style: italic;
+  bottom: 20px;
 }
 
 /* NEEDS SECTION */
@@ -351,8 +361,17 @@ COLOURS
   .needs-section,
   .responsive-section,
   .final-screens-section {
-    padding: 8px;
-    margin: 40px 0;
+    padding: 40px 8px;
+    margin: 0px 0;
+  }
+
+  .attribution {
+    bottom: 0px;
+  }
+
+  .process-section {
+    padding-bottom: 80px;
+    margin-bottom: 8px;
   }
 
   .process-card {
