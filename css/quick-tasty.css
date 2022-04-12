@@ -17,6 +17,7 @@ COLOURS
   font-weight: 500;
   border-bottom: 3px solid #000;
   margin-bottom: 80px;
+  color: #2d2d2d;
 }
 
 .flex-column {
@@ -127,7 +128,7 @@ COLOURS
   border-radius: 16px;
   overflow: hidden;
   transition: all ease-in-out 0.4s;
-  color: #414057;
+  color: #2d2d2d;
 }
 
 .process-card.closed {
@@ -269,7 +270,7 @@ COLOURS
   width: 100%;
   padding: 20px 28px;
   letter-spacing: 0.15px;
-  color: #323a30;
+  color: #2d2d2d;
   font-weight: 400;
 }
 
