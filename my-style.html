@@ -1,336 +1,603 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Francesca Paris" />
+    <meta
+      name="description"
+      content="UI / UX design portfolio showcasing mobile concept apps and resposive web apps"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="img/favicon-32x32.png" rel="shortcut icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Francesca Paris | My Style</title>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="author" content="Francesca Paris">
-  <meta name="description" content="UI / UX design portfolio showcasing mobile concept apps and resposive web apps">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@100;200;500&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Francesca Paris | My Style</title>
-</head>
-
-<body>
-  <header>
-    <div class="container container-sm">
-      <div class="row-nm">
-        <div class="col-6 col-md-6 col-lg-6">
-          <div>
-            <a href="index.html"><img src="img/logo-desktop.svg" alt="Francesca Paris" class="logo"></a>
+  <body>
+    <header>
+      <div class="container container-sm">
+        <div class="row-nm">
+          <div class="col-6 col-md-6 col-lg-6">
+            <div>
+              <a href="index.html"
+                ><img
+                  src="img/logo-desktop.svg"
+                  alt="Francesca Paris"
+                  class="logo"
+              /></a>
+            </div>
           </div>
-        </div>
-        <div class="col-6 col-md-6 col-lg-6">
-          <div class="navtoggle" id="myNavtoggle">
-            <nav>
-              <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About me</a></li>
-                <li><a href="contact-me.html">Contact</a></li>
-                <li class="icon"><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><svg width="26" height="40" viewBox="0 0 26 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 1H25" stroke="black" stroke-width="2" stroke-linecap="round" />
-                      <path d="M1 11H25" stroke="black" stroke-width="2" stroke-linecap="round" />
-                      <path d="M1 21H25" stroke="black" stroke-width="2" stroke-linecap="round" />
-                    </svg></a></li>
-              </ul>
-            </nav>
+          <div class="col-6 col-md-6 col-lg-6">
+            <div class="navtoggle" id="myNavtoggle">
+              <nav>
+                <ul>
+                  <li><a href="index.html">Work</a></li>
+                  <li><a href="about.html">About me</a></li>
+                  <li><a href="contact-me.html">Contact</a></li>
+                  <li class="icon">
+                    <a
+                      href="javascript:void(0);"
+                      class="icon"
+                      onclick="menuToggle()"
+                      ><svg
+                        width="26"
+                        height="40"
+                        viewBox="0 0 26 22"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 1H25"
+                          stroke="black"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M1 11H25"
+                          stroke="black"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        />
+                        <path
+                          d="M1 21H25"
+                          stroke="black"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                        /></svg
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <div id="my-style">
-      <!-- intro section -->
-      <div class="row">
-        <div class="col-12">
-          <picture>
-            <source srcset="img/my-style/case-study/intro-image@4x.png" media="(min-width:1024px)">
-            <source srcset="img/my-style/case-study/intro-image@3x.png" media="(min-width:640px)">
-            <source srcset="img/my-style/case-study/intro-image@2x.png" media="(min-width:400px)">
-            <img src="img/my-style/case-study/intro-image@1x.png" alt="Introduction image" class="center">
-          </picture>
-        </div>
-      </div>
-      <div class=" space-vertical">
-        <div>
-          <div class="container container-sm row">
-            <div class="pb-20 col-md-5">
-              <span class="overline">Objective</span>
-              <p>This student project allowed me to learn about the Material Design guidelines and also the Human Interface guidelines, implementing them in a new concept app.</p>
-            </div>
-            <div class="pb-20 col-md-3 mpl-20">
-              <span class="overline">My role</span>
-              <p>UI and UX Designer</p>
-            </div>
-            <div class="col-md-4 mpl-20">
-              <span class="overline">Platforms</span>
-              <p>iOS<br>
-                Android</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div>
-        <div class="container container-sm">
-          <!-- discovering the context section -->
-          <div class="pb-60">
-            <div class="row-nm">
-              <div class="col-12">
-                <h1 class="uppercase">Process</h1>
-              </div>
-            </div>
-            <div class="row-nm">
-              <div class="col-12">
-                <span class="overline">Discovering the context</span>
-                <h2>Searching for a custom shopping experience</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 col-lg-6">
-                <p>Firstly I analysed the current market. I looked at competitors apps, checking what features they had in common but also what made each app different. I've analysed the flow of the user experience and what
-                  function felt more useful to
-                  me as a user. I then checked what kind of new innovative functions are being implemented in the retail sector through digital devices.
-                  I ran into some interesting findings, like the usage of beacons to notify the user of a new upcoming event when walking near a shop. However, <span class="bold">there wasn't an app that would provide a good personalised
-                    recommendation
-                    section from the
-                    first moment the user gets into the app.</span> </p>
-              </div>
-              <div class="col-md-6 col-lg-5 mpl-40 lml-20">
-                <p>I also realised how <span class="bold">clothing apps should not limited to online shopping, but could used to enhance the experience in shops too.</span><br>
-                  As a UX designer, it seemed to me those apps were trying to push their products on the users, instead of understanding the user needs first. While I could understand how a number of shoppers might want to just follow the latest
-                  fashion
-                  trends, I also thought some might be more picky and therefore that could have been the audience for my app.</p>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- concepting -->
-          <div class="pb-60 row">
-            <span class="overline">Concepting</span>
-            <h2>Shopping enhancing: requesting a size through the app</h2>
-            <p class="pb-20">I created some quick sketches of how the app could be, then I made the user stories and eventually the flow charts.</p>
+    <main>
+      <div id="my-style">
+        <!-- intro section -->
+        <div class="row">
+          <div class="col-12">
             <picture>
-              <source srcset="img/my-style/case-study/user-flow@3x.png" media="(min-width:1024px)">
-              <source srcset="img/my-style/case-study/user-flow@2x.png" media="(min-width:640px)">
-              <img src="img/my-style/case-study/user-flow@1x.png" alt="User flow" class="center">
+              <source
+                srcset="img/my-style/case-study/intro-image@4x.png"
+                media="(min-width:1024px)"
+              />
+              <source
+                srcset="img/my-style/case-study/intro-image@3x.png"
+                media="(min-width:640px)"
+              />
+              <source
+                srcset="img/my-style/case-study/intro-image@2x.png"
+                media="(min-width:400px)"
+              />
+              <img
+                src="img/my-style/case-study/intro-image@1x.png"
+                alt="Introduction image"
+                class="center"
+              />
             </picture>
-
           </div>
-          <!-- Wireframes creation -->
-          <div class="pt-24 pb-60">
-            <div class="row-nm">
-              <div class="col-12">
-                <span class="overline">Wireframes creation</span>
-                <h2>Concerns about gender identities and inclusion</h2>
+        </div>
+        <div class="space-vertical">
+          <div>
+            <div class="container container-sm row">
+              <div class="pb-20 col-md-5">
+                <span class="overline">Objective</span>
+                <p>
+                  This student project allowed me to learn about the Material
+                  Design guidelines and also the Human Interface guidelines,
+                  implementing them in a new concept app.
+                </p>
               </div>
-            </div>
-            <div class="row-nm">
-              <div class="col-lg-4">
-                <p class="pb-20">During the initial screens creation I ran in a few issues.<br>
-                  The first one was gender related. During the registration process I could have asked to the users to enter their gender and let that set whether the following clothes images would have been for men or women. However, this approach
-                  did
-                  not feel very inclusive and people from the LGBTQ+ community could find it quite outdated. I was also wondering how could I make my app appealing to gender fluid people too. I did some research, but it seemed websites and apps have
-                  the
-                  clothes divided by men, women, and perhaps girls and boys. Therefore I decided I would have only one main section and include images of many different styles, from feminine ones, to boyish and neutral ones.</p>
+              <div class="pb-20 col-md-3 mpl-20">
+                <span class="overline">My role</span>
+                <p>UI and UX Designer</p>
               </div>
-              <div class="col-lg-7 lml-20 mpt-12 ">
-                <picture>
-                  <source srcset="img/my-style/case-study/gender-inclusion@2x.png" media="(min-width:550px)">
-                  <img src="img/my-style/case-study/gender-inclusion@1x.png" alt="Logo screen and the screen for choosing your own style">
-                </picture>
-              </div>
-            </div>
-            <div class="row-nm">
-              <div class="col-12">
-                <picture>
-                  <source srcset="img/my-style/case-study/wireframes@2x.png" media="(min-width:550px)">
-                  <img src="img/my-style/case-study/wireframes@1x.png" alt="Android and iPhone wireframes">
-                </picture>
+              <div class="col-md-4 mpl-20">
+                <span class="overline">Platforms</span>
+                <p>
+                  iOS<br />
+                  Android
+                </p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Testing -->
-          <div class="pb-60">
-            <div class="row">
-              <div class="col-12">
-                <h2>Testing</h2>
-                <p class="pb-20">Before moving to the high fidelity wireframes, I needed to test my wireframes. I created quickly two prototypes (one iOS and one Android) and had a few people testing it. This way I have found some pain points that needed fixing. </p>
-                <picture>
-                  <source srcset="img/my-style/case-study/fixes1@4x.png" media="(min-width:1024px)">
-                  <source srcset="img/my-style/case-study/fixes1@3x.png" media="(min-width:540px)">
-                  <source srcset="img/my-style/case-study/fixes1@2x.png" media="(min-width:400px)">
-                  <img src="img/my-style/case-study/fixes1@1x.png" alt="Fixes applied to some screens after the first testing phase" class="center">
-                </picture>
+        <div>
+          <div class="container container-sm">
+            <!-- discovering the context section -->
+            <div class="pb-60">
+              <div class="row-nm">
+                <div class="col-12">
+                  <h1 class="uppercase">Process</h1>
+                </div>
+              </div>
+              <div class="row-nm">
+                <div class="col-12">
+                  <span class="overline">Discovering the context</span>
+                  <h2>Searching for a custom shopping experience</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-lg-6">
+                  <p>
+                    Firstly I analysed the current market. I looked at
+                    competitors apps, checking what features they had in common
+                    but also what made each app different. I've analysed the
+                    flow of the user experience and what function felt more
+                    useful to me as a user. I then checked what kind of new
+                    innovative functions are being implemented in the retail
+                    sector through digital devices. I ran into some interesting
+                    findings, like the usage of beacons to notify the user of a
+                    new upcoming event when walking near a shop. However,
+                    <span class="bold"
+                      >there wasn't an app that would provide a good
+                      personalised recommendation section from the first moment
+                      the user gets into the app.</span
+                    >
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-5 mpl-40 lml-20">
+                  <p>
+                    I also realised how
+                    <span class="bold"
+                      >clothing apps should not limited to online shopping, but
+                      could used to enhance the experience in shops too.</span
+                    ><br />
+                    As a UX designer, it seemed to me those apps were trying to
+                    push their products on the users, instead of understanding
+                    the user needs first. While I could understand how a number
+                    of shoppers might want to just follow the latest fashion
+                    trends, I also thought some might be more picky and
+                    therefore that could have been the audience for my app.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <!-- High fidelity  -->
-          <div class="pb-60">
-            <div class="row-nm">
-              <div class="col-12">
-                <h2>High fidelity</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-5 ">
-                <p class="pb-20">I created the high fidelity screens that I would have used for the prototype. While assigning the pictures to the Registration and customization process, I realised the screen could have been very confusing. If
-                  I  used a mix of images showing both men and women wearing different types of clothes in the same screen, users might mistakenly think there is a problem with the app. Therefore I added the classic sections: man, woman, girl and boy. I have however paid
-                  attention to include gender neutral clothes in each one.</p>
-              </div>
-              <div class="col-lg-7">
-                <picture>
-                  <source srcset="img/my-style/case-study/high-fidelity@2x.png" media="(min-width:550px)">
-                  <img src="img/my-style/case-study/high-fidelity@1x.png" alt="Some high fidelity screens of the app" class="center">
-                </picture>
-              </div>
-            </div>
-          </div>
-
-          <!-- Prototyping and gathering feedback  -->
-          <div class="pb-20">
-            <div class="row">
-              <h2>Prototyping & Gathering feedback</h2>
-              <p class="pb-20">Afterwards I created a prototype and asked for feedback from my classmates. This process was very valuable, as it allowed me to find further weak points but also have a global view of the good ones within the
-                app. I was particularly concerned by the process for scanning an item, because it required a good number of taps and screens due to the permissions needed for the function. Here there is some of the feedback I received.</p>
+            <!-- concepting -->
+            <div class="pb-60 row">
+              <span class="overline">Concepting</span>
+              <h2>Shopping enhancing: requesting a size through the app</h2>
+              <p class="pb-20">
+                I created some quick sketches of how the app could be, then I
+                made the user stories and eventually the flow charts.
+              </p>
               <picture>
-                <source srcset="img/my-style/case-study/feedback@3x.png" media="(min-width:1024px)">
-                <source srcset="img/my-style/case-study/feedback@2x.png" media="(min-width:640px)">
-                <img src="img/my-style/case-study/feedback@1x.png" alt="Feedback gathered during the second testing phase" class="center">
+                <source
+                  srcset="img/my-style/case-study/user-flow@3x.png"
+                  media="(min-width:1024px)"
+                />
+                <source
+                  srcset="img/my-style/case-study/user-flow@2x.png"
+                  media="(min-width:640px)"
+                />
+                <img
+                  src="img/my-style/case-study/user-flow@1x.png"
+                  alt="User flow"
+                  class="center"
+                />
               </picture>
             </div>
+            <!-- Wireframes creation -->
+            <div class="pt-24 pb-60">
+              <div class="row-nm">
+                <div class="col-12">
+                  <span class="overline">Wireframes creation</span>
+                  <h2>Concerns about gender identities and inclusion</h2>
+                </div>
+              </div>
+              <div class="row-nm">
+                <div class="col-lg-4">
+                  <p class="pb-20">
+                    During the initial screens creation I ran in a few
+                    issues.<br />
+                    The first one was gender related. During the registration
+                    process I could have asked to the users to enter their
+                    gender and let that set whether the following clothes images
+                    would have been for men or women. However, this approach did
+                    not feel very inclusive and people from the LGBTQ+ community
+                    could find it quite outdated. I was also wondering how could
+                    I make my app appealing to gender fluid people too. I did
+                    some research, but it seemed websites and apps have the
+                    clothes divided by men, women, and perhaps girls and boys.
+                    Therefore I decided I would have only one main section and
+                    include images of many different styles, from feminine ones,
+                    to boyish and neutral ones.
+                  </p>
+                </div>
+                <div class="col-lg-7 lml-20 mpt-12">
+                  <picture>
+                    <source
+                      srcset="img/my-style/case-study/gender-inclusion@2x.png"
+                      media="(min-width:550px)"
+                    />
+                    <img
+                      src="img/my-style/case-study/gender-inclusion@1x.png"
+                      alt="Logo screen and the screen for choosing your own style"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div class="row-nm">
+                <div class="col-12">
+                  <picture>
+                    <source
+                      srcset="img/my-style/case-study/wireframes@2x.png"
+                      media="(min-width:550px)"
+                    />
+                    <img
+                      src="img/my-style/case-study/wireframes@1x.png"
+                      alt="Android and iPhone wireframes"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
 
-            <!-- Screen corrections -->
-            <div class="row">
-              <div class="col-12">
-                <h4>Screens corrections</h4>
-                <p class="pb-20">The feedback gathered allowed me to fix different issues. These are the resulting screens for scanning items and the one for style customization.</p>
+            <!-- Testing -->
+            <div class="pb-60">
+              <div class="row">
+                <div class="col-12">
+                  <h2>Testing</h2>
+                  <p class="pb-20">
+                    Before moving to the high fidelity wireframes, I needed to
+                    test my wireframes. I created quickly two prototypes (one
+                    iOS and one Android) and had a few people testing it. This
+                    way I have found some pain points that needed fixing.
+                  </p>
+                  <picture>
+                    <source
+                      srcset="img/my-style/case-study/fixes1@4x.png"
+                      media="(min-width:1024px)"
+                    />
+                    <source
+                      srcset="img/my-style/case-study/fixes1@3x.png"
+                      media="(min-width:540px)"
+                    />
+                    <source
+                      srcset="img/my-style/case-study/fixes1@2x.png"
+                      media="(min-width:400px)"
+                    />
+                    <img
+                      src="img/my-style/case-study/fixes1@1x.png"
+                      alt="Fixes applied to some screens after the first testing phase"
+                      class="center"
+                    />
+                  </picture>
+                </div>
               </div>
             </div>
-            <div class="row-nm">
-              <div class="col-12">
+
+            <!-- High fidelity  -->
+            <div class="pb-60">
+              <div class="row-nm">
+                <div class="col-12">
+                  <h2>High fidelity</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-5">
+                  <p class="pb-20">
+                    I created the high fidelity screens that I would have used
+                    for the prototype. While assigning the pictures to the
+                    Registration and customization process, I realised the
+                    screen could have been very confusing. If I used a mix of
+                    images showing both men and women wearing different types of
+                    clothes in the same screen, users might mistakenly think
+                    there is a problem with the app. Therefore I added the
+                    classic sections: man, woman, girl and boy. I have however
+                    paid attention to include gender neutral clothes in each
+                    one.
+                  </p>
+                </div>
+                <div class="col-lg-7">
+                  <picture>
+                    <source
+                      srcset="img/my-style/case-study/high-fidelity@2x.png"
+                      media="(min-width:550px)"
+                    />
+                    <img
+                      src="img/my-style/case-study/high-fidelity@1x.png"
+                      alt="Some high fidelity screens of the app"
+                      class="center"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
+
+            <!-- Prototyping and gathering feedback  -->
+            <div class="pb-20">
+              <div class="row">
+                <h2>Prototyping & Gathering feedback</h2>
+                <p class="pb-20">
+                  Afterwards I created a prototype and asked for feedback from
+                  my classmates. This process was very valuable, as it allowed
+                  me to find further weak points but also have a global view of
+                  the good ones within the app. I was particularly concerned by
+                  the process for scanning an item, because it required a good
+                  number of taps and screens due to the permissions needed for
+                  the function. Here there is some of the feedback I received.
+                </p>
                 <picture>
-                  <source srcset="img/my-style/case-study/fixes2@3x.png" media="(min-width:1024px)">
-                  <source srcset="img/my-style/case-study/fixes2@2x.png" media="(min-width:640px)">
-                  <img src="img/my-style/case-study/fixes2@1x.png" alt="Fixes applied to the screens after testing">
+                  <source
+                    srcset="img/my-style/case-study/feedback@3x.png"
+                    media="(min-width:1024px)"
+                  />
+                  <source
+                    srcset="img/my-style/case-study/feedback@2x.png"
+                    media="(min-width:640px)"
+                  />
+                  <img
+                    src="img/my-style/case-study/feedback@1x.png"
+                    alt="Feedback gathered during the second testing phase"
+                    class="center"
+                  />
                 </picture>
               </div>
-            </div>
-          </div>
-          <div class="pb-60">
-            <div class="row">
-              <div class="col-12">
-                <h1>Final screens</h1>
-                <picture>
-                  <source srcset="img/my-style/case-study/final-screens@2x.png" media="(min-width:767px)">
-                  <img src="img/my-style/case-study/final-screens@1x.png" alt="Fixes applied to the screens after testing">
-                </picture>
+
+              <!-- Screen corrections -->
+              <div class="row">
+                <div class="col-12">
+                  <h4>Screens corrections</h4>
+                  <p class="pb-20">
+                    The feedback gathered allowed me to fix different issues.
+                    These are the resulting screens for scanning items and the
+                    one for style customization.
+                  </p>
+                </div>
+              </div>
+              <div class="row-nm">
+                <div class="col-12">
+                  <picture>
+                    <source
+                      srcset="img/my-style/case-study/fixes2@3x.png"
+                      media="(min-width:1024px)"
+                    />
+                    <source
+                      srcset="img/my-style/case-study/fixes2@2x.png"
+                      media="(min-width:640px)"
+                    />
+                    <img
+                      src="img/my-style/case-study/fixes2@1x.png"
+                      alt="Fixes applied to the screens after testing"
+                    />
+                  </picture>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="container container-sm green col-12 white space-vertical">
+            <div class="pb-60">
+              <div class="row">
+                <div class="col-12">
+                  <h1>Final screens</h1>
+                  <picture>
+                    <source
+                      srcset="img/my-style/case-study/final-screens@2x.png"
+                      media="(min-width:767px)"
+                    />
+                    <img
+                      src="img/my-style/case-study/final-screens@1x.png"
+                      alt="Fixes applied to the screens after testing"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div
+              class="container container-sm green col-12 white space-vertical"
+            >
+              <div class="row-nm col-12">
+                <h2>Prototypes</h2>
+              </div>
+              <div class="row-nm pb-20 col-12">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                  <p>
+                    <a
+                      href="https://francesca253147.invisionapp.com/prototype/ckgia0dxg001r9401kwqjs8hr/play"
+                      class="white"
+                      >Android</a
+                    >
+                  </p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 white">
+                  <p>
+                    <a
+                      href="https://francesca253147.invisionapp.com/prototype/cknai1lss001t0o01lyv4b1ek/play"
+                      class="white"
+                      >iOS</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
             <div class="row-nm col-12">
-              <h2>Prototypes</h2>
-            </div>
-            <div class="row-nm pb-20 col-12">
-              <div class="col-sm-12 col-md-6 col-lg-6">
-                <p><a href="https://francesca253147.invisionapp.com/prototype/ckgia0dxg001r9401kwqjs8hr/play" class="white">Android</a></p>
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-6 white">
-                <p><a href="https://francesca253147.invisionapp.com/prototype/cknai1lss001t0o01lyv4b1ek/play" class="white">iOS</a></p>
+              <div class="col-12">
+                <h1>Takeaways</h1>
               </div>
             </div>
-          </div>
-          <div class="row-nm col-12">
-            <div class="col-12">
-              <h1>Takeaways</h1>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6 pb-20">
+                <h2 class="max-w300-md">Reflection on the project</h2>
+                <p>
+                  The project went quite well. If I had the opportunity to work
+                  on a similar project again, I think I would approach a few
+                  things differently. I would interview a few people early on to
+                  make sure my assumptions are correct and I would try to gather
+                  feedback on my wireframes through a face-to-face interview or
+                  a video call. While different people appreciated the features
+                  I have implemented in my app, I think it would be better to
+                  gather some data early on and have that guiding the project.
+                </p>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6 mpl-40 pb-20">
+                <h2 class="max-w300-md">Possible future implementations</h2>
+                <p>
+                  In a second iteration, I would push further the app abilities
+                  to enhance the user shopping experience. The app could provide
+                  notifications when the user is nearby shopping and there is
+                  some new item that follows the custom style established.
+                  Perhaps this feature could be activated during a certain time
+                  range, like weekends only, so it would not bother the user in
+                  the morning while commuting.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 pb-20">
-              <h2 class="max-w300-md">Reflection on the project</h2>
-              <p>The project went quite well. If I had the opportunity to work on a similar project again, I think I would approach a few things differently. I would interview a few people early on to make sure my assumptions are correct and I would
-                try to gather feedback on my wireframes through a face-to-face interview or a video call. While different people appreciated the features I have implemented in my app, I think it would be better to gather some data early on and have
-                that guiding the project.</p>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 mpl-40 pb-20">
-              <h2 class="max-w300-md">Possible future implementations</h2>
-              <p>In a second iteration, I would push further the app abilities to enhance the user shopping experience. The app could provide notifications when the user is nearby shopping and there is some new item that follows the custom style
-                established. Perhaps this feature could be activated during a certain time range, like weekends only, so it would not bother the user in the morning while commuting.</p>
-            </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="contact">
+      <div class="container">
+        <div class="row-nm">
+          <div class="col-12">
+            <h3>Get in Touch</h3>
+            <p>
+              Do you like my work and want to discuss opportunities? Please get
+              in touch.
+            </p>
+          </div>
+        </div>
+        <div class="row-nm">
+          <div class="col-12">
+            <a href="mailto:francescaparis90@gmail.com" class="button contact"
+              >Email me</a
+            >
+          </div>
+        </div>
+        <div class="row-nm">
+          <div class="col-12">
+            <!--Social Media Layout and Placeholders-->
+            <a href="https://www.behance.net/francescaparis">
+              <!-- Behance icon -->
+              <svg
+                enable-background="new 0 0 56.693 56.693"
+                height="56.693px"
+                id="Behance-icon"
+                version="1.1"
+                viewBox="0 0 56.693 56.693"
+                width="56.693px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    style="fill: #696c65"
+                    d="M23.556,29.975c0,0,4.701-0.35,4.701-5.863c0-5.514-3.846-8.206-8.719-8.206h-8.97h-0.263H3.503v30.815h6.802h0.263h8.97   c0,0,9.788,0.309,9.788-9.096C29.325,37.625,29.753,29.975,23.556,29.975z M10.568,21.383h7.815h1.154c0,0,2.18,0,2.18,3.205   c0,3.207-1.283,3.672-2.736,3.672h-8.414V21.383z M19.084,41.244c-0.237,0.006-0.438,0-0.573,0h-7.943V33.01h8.97   c0,0,3.249-0.043,3.249,4.23C22.786,40.846,20.36,41.217,19.084,41.244z"
+                  />
+                  <path
+                    style="fill: #696c65"
+                    d="M42.382,23.746c-11.85,0-11.84,11.84-11.84,11.84s-0.812,11.779,11.84,11.779c0,0,10.545,0.602,10.545-8.195h-5.424   c0,0,0.18,3.314-4.941,3.314c0,0-5.422,0.361-5.422-5.363h15.967C53.106,37.121,54.854,23.746,42.382,23.746z M37.079,33.01   c0,0,0.662-4.75,5.422-4.75c4.762,0,4.699,4.75,4.699,4.75H37.079z"
+                  />
+                  <rect
+                    style="fill: #696c65"
+                    height="3.795"
+                    width="12.711"
+                    x="35.753"
+                    y="17.721"
+                  />
+                </g>
+              </svg>
+            </a>
+            <a href="https://dribbble.com/FrancescaParis">
+              <!-- Dribbble icon -->
+              <svg
+                enable-background="new 0 0 56.693 56.693"
+                height="56.693px"
+                id="Dribbble-icon"
+                version="1.1"
+                viewBox="0 0 56.693 56.693"
+                width="56.693px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <path
+                  style="fill: #696c65"
+                  clip-rule="evenodd"
+                  d="M52.43,24.152c-0.324-1.588-0.811-3.152-1.441-4.646  c-0.619-1.467-1.387-2.879-2.279-4.199c-0.885-1.309-1.9-2.539-3.018-3.656c-1.117-1.119-2.348-2.135-3.656-3.018  c-1.32-0.895-2.734-1.66-4.199-2.281c-1.494-0.629-3.057-1.117-4.646-1.439c-1.627-0.334-3.303-0.504-4.977-0.504  c-1.676,0-3.35,0.17-4.979,0.504c-1.588,0.322-3.152,0.811-4.645,1.439c-1.465,0.621-2.879,1.387-4.201,2.281  c-1.309,0.883-2.539,1.898-3.656,3.018c-1.118,1.117-2.132,2.348-3.016,3.656c-0.893,1.32-1.66,2.732-2.279,4.199  C4.805,21,4.32,22.564,3.995,24.152c-0.333,1.625-0.502,3.301-0.502,4.976c0,1.678,0.169,3.354,0.502,4.98  c0.325,1.588,0.811,3.152,1.442,4.645c0.619,1.465,1.387,2.881,2.279,4.201c0.884,1.309,1.898,2.537,3.016,3.656  c1.117,1.117,2.348,2.131,3.656,3.016c1.322,0.893,2.736,1.66,4.201,2.279c1.492,0.633,3.057,1.115,4.645,1.441  c1.629,0.336,3.303,0.504,4.979,0.504c1.674,0,3.35-0.168,4.977-0.504c1.59-0.326,3.152-0.809,4.646-1.441  c1.465-0.619,2.879-1.387,4.199-2.279c1.309-0.885,2.539-1.898,3.656-3.016c1.117-1.119,2.133-2.348,3.018-3.656  c0.893-1.32,1.66-2.736,2.279-4.201c0.631-1.492,1.117-3.057,1.441-4.645c0.334-1.627,0.502-3.303,0.502-4.98  C52.932,27.453,52.764,25.777,52.43,24.152z M49.316,28.919c-0.305-0.066-7.449-1.604-14.703-0.692  c-0.148-0.361-0.299-0.725-0.455-1.09c-0.439-1.033-0.912-2.057-1.404-3.062c8.338-3.402,11.723-8.297,11.762-8.355  C47.477,19.314,49.268,23.908,49.316,28.919z M42.156,13.285c-0.053,0.082-3.059,4.658-11.027,7.645  c-3.609-6.631-7.574-11.898-7.891-12.316c1.596-0.387,3.26-0.596,4.975-0.596C33.559,8.018,38.436,10.01,42.156,13.285z   M23.156,8.631c0,0.002-0.004,0.004-0.004,0.004s-0.023,0.006-0.062,0.014C23.111,8.643,23.135,8.639,23.156,8.631z M19.205,10.035  c0.281,0.377,4.186,5.67,7.84,12.164c-10.137,2.693-18.934,2.588-19.492,2.578C8.925,18.238,13.318,12.816,19.205,10.035z   M7.102,29.128c0-0.225,0.01-0.445,0.018-0.667c0.372,0.008,10.804,0.245,21.673-3.008c0.605,1.184,1.184,2.387,1.713,3.589  c-0.279,0.078-0.557,0.162-0.832,0.252c-11.393,3.682-17.172,13.934-17.172,13.934s0.008,0.006,0.008,0.01  C9.149,39.497,7.102,34.552,7.102,29.128z M28.213,50.241c-5.109,0-9.795-1.816-13.447-4.838c0.277,0.225,0.473,0.369,0.473,0.369  s4.047-8.826,16.566-13.188c0.047-0.018,0.094-0.031,0.141-0.045c2.971,7.719,4.197,14.184,4.51,16.029  C33.922,49.646,31.137,50.241,28.213,50.241z M40.01,46.64c-0.215-1.275-1.34-7.471-4.109-15.08  c6.814-1.09,12.721,0.779,13.156,0.922C48.117,38.364,44.75,43.438,40.01,46.64z"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/francescaparis/"
+              target="_blank"
+            >
+              <!-- LinkedIn icon -->
+              <svg
+                enable-background="new 0 0 56.693 56.693"
+                height="56.693px"
+                id="LinkedIn-icon"
+                version="1.1"
+                viewBox="0 0 56.693 56.693"
+                width="56.693px"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <g>
+                  <path
+                    style="fill: #696c65"
+                    d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"
+                  />
+                  <path
+                    style="fill: #696c65"
+                    d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="row-nm">
+          <div class="col-12">
+            <p>Copyright Francesca Paris 2021</p>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
-  </main>
-
-  <footer id="contact">
-    <div class="container">
-      <div class="row-nm">
-        <div class="col-12">
-          <h3>Get in Touch</h3>
-          <p>Do you like my work and want to discuss opportunities? Please get in touch.</p>
-        </div>
-      </div>
-      <div class="row-nm">
-        <div class="col-12">
-          <a href="mailto:francescaparis90@gmail.com" class="button contact">Email me</a>
-        </div>
-      </div>
-      <div class="row-nm">
-        <div class="col-12">
-          <!--Social Media Layout and Placeholders-->
-          <a href="https://www.behance.net/francescaparis">
-            <!-- Behance icon -->
-            <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Behance-icon" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g>
-                <path style="fill:#696c65;"
-                  d="M23.556,29.975c0,0,4.701-0.35,4.701-5.863c0-5.514-3.846-8.206-8.719-8.206h-8.97h-0.263H3.503v30.815h6.802h0.263h8.97   c0,0,9.788,0.309,9.788-9.096C29.325,37.625,29.753,29.975,23.556,29.975z M10.568,21.383h7.815h1.154c0,0,2.18,0,2.18,3.205   c0,3.207-1.283,3.672-2.736,3.672h-8.414V21.383z M19.084,41.244c-0.237,0.006-0.438,0-0.573,0h-7.943V33.01h8.97   c0,0,3.249-0.043,3.249,4.23C22.786,40.846,20.36,41.217,19.084,41.244z" />
-                <path style="fill:#696c65;"
-                  d="M42.382,23.746c-11.85,0-11.84,11.84-11.84,11.84s-0.812,11.779,11.84,11.779c0,0,10.545,0.602,10.545-8.195h-5.424   c0,0,0.18,3.314-4.941,3.314c0,0-5.422,0.361-5.422-5.363h15.967C53.106,37.121,54.854,23.746,42.382,23.746z M37.079,33.01   c0,0,0.662-4.75,5.422-4.75c4.762,0,4.699,4.75,4.699,4.75H37.079z" />
-                <rect style="fill:#696c65;" height="3.795" width="12.711" x="35.753" y="17.721" />
-              </g>
-            </svg>
-          </a>
-          <a href="https://dribbble.com/FrancescaParis">
-            <!-- Dribbble icon -->
-            <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Dribbble-icon" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-              <path style="fill:#696c65;" clip-rule="evenodd"
-                d="M52.43,24.152c-0.324-1.588-0.811-3.152-1.441-4.646  c-0.619-1.467-1.387-2.879-2.279-4.199c-0.885-1.309-1.9-2.539-3.018-3.656c-1.117-1.119-2.348-2.135-3.656-3.018  c-1.32-0.895-2.734-1.66-4.199-2.281c-1.494-0.629-3.057-1.117-4.646-1.439c-1.627-0.334-3.303-0.504-4.977-0.504  c-1.676,0-3.35,0.17-4.979,0.504c-1.588,0.322-3.152,0.811-4.645,1.439c-1.465,0.621-2.879,1.387-4.201,2.281  c-1.309,0.883-2.539,1.898-3.656,3.018c-1.118,1.117-2.132,2.348-3.016,3.656c-0.893,1.32-1.66,2.732-2.279,4.199  C4.805,21,4.32,22.564,3.995,24.152c-0.333,1.625-0.502,3.301-0.502,4.976c0,1.678,0.169,3.354,0.502,4.98  c0.325,1.588,0.811,3.152,1.442,4.645c0.619,1.465,1.387,2.881,2.279,4.201c0.884,1.309,1.898,2.537,3.016,3.656  c1.117,1.117,2.348,2.131,3.656,3.016c1.322,0.893,2.736,1.66,4.201,2.279c1.492,0.633,3.057,1.115,4.645,1.441  c1.629,0.336,3.303,0.504,4.979,0.504c1.674,0,3.35-0.168,4.977-0.504c1.59-0.326,3.152-0.809,4.646-1.441  c1.465-0.619,2.879-1.387,4.199-2.279c1.309-0.885,2.539-1.898,3.656-3.016c1.117-1.119,2.133-2.348,3.018-3.656  c0.893-1.32,1.66-2.736,2.279-4.201c0.631-1.492,1.117-3.057,1.441-4.645c0.334-1.627,0.502-3.303,0.502-4.98  C52.932,27.453,52.764,25.777,52.43,24.152z M49.316,28.919c-0.305-0.066-7.449-1.604-14.703-0.692  c-0.148-0.361-0.299-0.725-0.455-1.09c-0.439-1.033-0.912-2.057-1.404-3.062c8.338-3.402,11.723-8.297,11.762-8.355  C47.477,19.314,49.268,23.908,49.316,28.919z M42.156,13.285c-0.053,0.082-3.059,4.658-11.027,7.645  c-3.609-6.631-7.574-11.898-7.891-12.316c1.596-0.387,3.26-0.596,4.975-0.596C33.559,8.018,38.436,10.01,42.156,13.285z   M23.156,8.631c0,0.002-0.004,0.004-0.004,0.004s-0.023,0.006-0.062,0.014C23.111,8.643,23.135,8.639,23.156,8.631z M19.205,10.035  c0.281,0.377,4.186,5.67,7.84,12.164c-10.137,2.693-18.934,2.588-19.492,2.578C8.925,18.238,13.318,12.816,19.205,10.035z   M7.102,29.128c0-0.225,0.01-0.445,0.018-0.667c0.372,0.008,10.804,0.245,21.673-3.008c0.605,1.184,1.184,2.387,1.713,3.589  c-0.279,0.078-0.557,0.162-0.832,0.252c-11.393,3.682-17.172,13.934-17.172,13.934s0.008,0.006,0.008,0.01  C9.149,39.497,7.102,34.552,7.102,29.128z M28.213,50.241c-5.109,0-9.795-1.816-13.447-4.838c0.277,0.225,0.473,0.369,0.473,0.369  s4.047-8.826,16.566-13.188c0.047-0.018,0.094-0.031,0.141-0.045c2.971,7.719,4.197,14.184,4.51,16.029  C33.922,49.646,31.137,50.241,28.213,50.241z M40.01,46.64c-0.215-1.275-1.34-7.471-4.109-15.08  c6.814-1.09,12.721,0.779,13.156,0.922C48.117,38.364,44.75,43.438,40.01,46.64z"
-                fill-rule="evenodd" />
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/in/francescaparis/" target="_blank">
-            <!-- LinkedIn icon -->
-            <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="LinkedIn-icon" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink">
-              <g>
-                <path style="fill:#696c65;" d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z" />
-                <path style="fill:#696c65;"
-                  d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z" />
-              </g>
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="row-nm">
-        <div class="col-12">
-          <p>Copyright Francesca Paris 2021</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-  <script src="js/scripts.js"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
