@@ -82,31 +82,30 @@ COLOURS
 }
 
 #card1 .label {
-  background-color: #0d3b66;
+  background-color: #00626a;
   color: #fff;
   height: 100%;
 }
 
-#card1 .step-title,
-#card5 .step-title {
+#card1 .step-title {
   color: #fff;
 }
 
 #card2 .label {
-  background-color: #faf0ca;
+  background-color: #83c5be;
 }
 
 #card3 .label {
-  background-color: #f4d35e;
+  background-color: #edf6f9;
 }
 
 #card4 .label {
-  background-color: #ffb270;
+  background-color: #ffddd2;
 }
 
 #card5 .label {
-  background-color: #c95050;
-  color: #fff;
+  background-color: #e7ac97;
+  color: #2d2d2d;
 }
 
 .process-card {
