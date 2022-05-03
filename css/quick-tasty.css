@@ -13,7 +13,8 @@ COLOURS
 }
 
 #quick-tasty h1 {
-  display: inline-block;
+  display: block;
+  width: fit-content;
   font-weight: 500;
   border-bottom: 3px solid #000;
   margin-bottom: 80px;
@@ -68,6 +69,26 @@ COLOURS
 /* HERO SECTION */
 .hero-section {
   background-color: #323b52;
+}
+
+/* THE CHALLENGE SECTION */
+
+section#challenge {
+  margin-top: 140px;
+  margin-bottom: 120px;
+}
+
+#challenge h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#challenge p {
+  padding: 0;
+  text-align: center;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* PROCESS SECTION */
@@ -364,6 +385,11 @@ COLOURS
     grid-template-columns: 1fr;
   }
 
+  #challenge p {
+    width: unset;
+    padding: 0 20px;
+  }
+
   .process-section,
   .needs-section,
   .responsive-section,
@@ -424,6 +450,12 @@ COLOURS
 @media only screen and (min-width: 1024px) {
   .hero-section {
     background-color: unset;
+  }
+
+  #challenge p {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .final-screens.mobile-only {
