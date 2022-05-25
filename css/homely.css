@@ -381,7 +381,7 @@ main {
   }
 
   .homely-hero {
-    background-image: url(/img/homely/case-study/hero-image@3x.png);
+    background-image: url(../img/homely/case-study/hero-image@3x.png);
     background-size: cover;
     background-position: 60% 40%;
     background-repeat: no-repeat;
