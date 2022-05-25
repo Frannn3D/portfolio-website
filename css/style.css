@@ -232,6 +232,17 @@ h4 {
   padding: 8px 0;
 }
 
+/* Grids classes */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
 /* Other classes */
 .overline {
   font-family: "Encode Sans Semi Condensed", sans-serif;
@@ -349,13 +360,24 @@ h4 {
   transform: translateY(-50%);
 }
 
-/* Margin top to cover the header bar space */
-.mt-71 {
-  margin-top: 71px;
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
+
+/* Margin top to cover the header bar space */
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-71 {
+  margin-top: 71px;
 }
 
 /* Padding top classes */
@@ -391,6 +413,14 @@ h4 {
 
 .ml-24 {
   margin-left: 24px;
+}
+
+.ml-48 {
+  margin-left: 48px;
+}
+
+.ml-56 {
+  margin-left: 56px;
 }
 
 .pl-36 {
@@ -431,6 +461,10 @@ h4 {
 
 .pt-24 {
   padding-top: 24px;
+}
+
+.pt-un {
+  padding-top: unset;
 }
 
 .pb-20 {
@@ -475,6 +509,10 @@ h4 {
 
 .mb-28 {
   margin-bottom: 28px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 /* Main Column classes */
