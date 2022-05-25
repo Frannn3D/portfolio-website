@@ -259,6 +259,7 @@ main {
 
   .process-btns {
     gap: 12px;
+    background-color: unset;
   }
 
   #btn-research {
@@ -270,11 +271,15 @@ main {
   #btn-research:hover,
   #btn-research:focus {
     background-image: url(../img/homely/case-study/btn_research-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   #btn-research.active {
     background-image: url(../img/homely/case-study/btn_research-active-L.svg);
     padding: 0;
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   #btn-wireframes {
@@ -286,10 +291,14 @@ main {
   #btn-wireframes:hover,
   #btn-wireframes:focus {
     background-image: url(../img/homely/case-study/btn_wireframes-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   #btn-wireframes.active {
     background-image: url(../img/homely/case-study/btn_wireframes-active-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   #btn-highFidelity {
@@ -301,10 +310,14 @@ main {
   #btn-highFidelity:hover,
   #btn-highFidelity:focus {
     background-image: url(../img/homely/case-study/btn_high-fidelity-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   #btn-highFidelity.active {
     background-image: url(../img/homely/case-study/btn_high-fidelity-active-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   #btn-appIcon {
@@ -316,10 +329,14 @@ main {
   #btn-appIcon:focus,
   #btn-appIcon:active {
     background-image: url(../img/homely/case-study/btn_app-icon-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   #btn-appIcon.active {
     background-image: url(../img/homely/case-study/btn_app-icon-active-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
   }
 
   .final-screens {
