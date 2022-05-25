@@ -288,6 +288,23 @@ h4 {
   padding: 60px 0;
 }
 
+.work-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.project-desc {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
 #work .button {
   margin-bottom: 0;
 }
@@ -859,6 +876,18 @@ picture .logo {
   --underline-color: #696c65;
 }
 
+.cta-area {
+  height: 60px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.--button-project {
+  position: absolute;
+  right: 20px;
+  bottom: 4px;
+}
+
 /* ---------  Lines animation --------- */
 @keyframes move-down {
   0% {
@@ -1022,15 +1051,6 @@ picture .logo {
     padding-bottom: 32px;
   }
 
-  /*  it looks this section isn't getting used
-
-  .menu-items {
-    position: absolute;
-    top: 40px;
-    right: 24px;
-  }
-  */
-
   .col-sm-2 {
     width: 16.66%;
   }
@@ -1068,6 +1088,31 @@ picture .logo {
     align-self: center;
     padding-top: 20px;
     padding-bottom: 36px;
+  }
+
+  .center-s {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile {
+    padding-bottom: 16px;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
+  .cta-area {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  .--button-project {
+    left: 50%;
+    right: unset;
+    transform: translate(-50%, 0);
   }
 
   /*   Intro hero animation  */
@@ -1144,16 +1189,6 @@ picture .logo {
   .headline-appear2 {
     opacity: 1;
     animation: 2s appear2 1 ease-in;
-  }
-
-  .center-s {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .profile {
-    padding-bottom: 16px;
   }
 }
 
