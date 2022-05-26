@@ -232,6 +232,17 @@ h4 {
   padding: 8px 0;
 }
 
+/* Grids classes */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
 /* Other classes */
 .overline {
   font-family: "Encode Sans Semi Condensed", sans-serif;
@@ -275,6 +286,23 @@ h4 {
 #hero h1 {
   text-align: center;
   padding: 60px 0;
+}
+
+.work-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-container {
+  display: flex;
+  align-items: stretch;
+}
+
+.project-desc {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 #work .button {
@@ -349,13 +377,24 @@ h4 {
   transform: translateY(-50%);
 }
 
-/* Margin top to cover the header bar space */
-.mt-71 {
-  margin-top: 71px;
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
+
+/* Margin top to cover the header bar space */
 
 .mt-20 {
   margin-top: 20px;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mt-71 {
+  margin-top: 71px;
 }
 
 /* Padding top classes */
@@ -391,6 +430,14 @@ h4 {
 
 .ml-24 {
   margin-left: 24px;
+}
+
+.ml-48 {
+  margin-left: 48px;
+}
+
+.ml-56 {
+  margin-left: 56px;
 }
 
 .pl-36 {
@@ -431,6 +478,10 @@ h4 {
 
 .pt-24 {
   padding-top: 24px;
+}
+
+.pt-un {
+  padding-top: unset;
 }
 
 .pb-20 {
@@ -475,6 +526,10 @@ h4 {
 
 .mb-28 {
   margin-bottom: 28px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
 }
 
 /* Main Column classes */
@@ -821,6 +876,18 @@ picture .logo {
   --underline-color: #696c65;
 }
 
+.cta-area {
+  height: 60px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.--button-project {
+  position: absolute;
+  right: 20px;
+  bottom: 4px;
+}
+
 /* ---------  Lines animation --------- */
 @keyframes move-down {
   0% {
@@ -984,15 +1051,6 @@ picture .logo {
     padding-bottom: 32px;
   }
 
-  /*  it looks this section isn't getting used
-
-  .menu-items {
-    position: absolute;
-    top: 40px;
-    right: 24px;
-  }
-  */
-
   .col-sm-2 {
     width: 16.66%;
   }
@@ -1030,6 +1088,31 @@ picture .logo {
     align-self: center;
     padding-top: 20px;
     padding-bottom: 36px;
+  }
+
+  .center-s {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile {
+    padding-bottom: 16px;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
+  .cta-area {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+
+  .--button-project {
+    left: 50%;
+    right: unset;
+    transform: translate(-50%, 0);
   }
 
   /*   Intro hero animation  */
@@ -1106,16 +1189,6 @@ picture .logo {
   .headline-appear2 {
     opacity: 1;
     animation: 2s appear2 1 ease-in;
-  }
-
-  .center-s {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .profile {
-    padding-bottom: 16px;
   }
 }
 

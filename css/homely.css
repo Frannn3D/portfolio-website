@@ -1,0 +1,480 @@
+.homely-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 400;
+}
+ul {
+  margin-top: 0;
+  margin-left: 32px;
+}
+
+main {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* CHALLENGE SECTION */
+
+.challenge-desc {
+  margin-bottom: 28px;
+}
+
+.challenge-directive {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+/* DESIGN PROCESS SECTION */
+
+.process-btns {
+  display: inline-flex;
+  gap: 8px;
+  padding: 4px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
+  border-radius: 24px;
+}
+
+#btn-research {
+  background-image: url(../img/homely/case-study/btn_research-S.svg);
+}
+
+#btn-research:active,
+#btn-research:hover,
+#btn-research:focus {
+  background-image: url(../img/homely/case-study/btn_research-S.svg);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+#btn-research.active {
+  background-image: url(../img/homely/case-study/btn_research-active-S.svg);
+  padding: 0;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+#btn-wireframes {
+  background-image: url(../img/homely/case-study/btn_wireframes-S.svg);
+}
+
+#btn-wireframes:active,
+#btn-wireframes:hover,
+#btn-wireframes:focus {
+  background-image: url(../img/homely/case-study/btn_wireframes-active-S.svg);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+#btn-wireframes.active {
+  background-image: url(../img/homely/case-study/btn_wireframes-active-S.svg);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+#btn-highFidelity {
+  background-image: url(../img/homely/case-study/btn_high-fidelity-S.svg);
+}
+
+#btn-highFidelity:active,
+#btn-highFidelity:hover,
+#btn-highFidelity:focus {
+  background-image: url(../img/homely/case-study/btn_high-fidelity-active-S.svg);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+#btn-highFidelity.active {
+  background-image: url(../img/homely/case-study/btn_high-fidelity-active-S.svg);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+#btn-appIcon {
+  background-image: url(../img/homely/case-study/btn_app-icon-S.svg);
+}
+
+#btn-appIcon:hover,
+#btn-appIcon:focus,
+#btn-appIcon:active {
+  background-image: url(../img/homely/case-study/btn_app-icon-active-S.svg);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+#btn-appIcon.active {
+  background-image: url(../img/homely/case-study/btn_app-icon-active-S.svg);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+.process-btn {
+  height: 48px;
+  width: 48px;
+  border: none;
+  background-color: unset;
+  padding: 0;
+
+  cursor: pointer;
+  /* transition: all 250ms ease-in-out; */
+
+  /* background-color: #7e921c; */
+  /* background: linear-gradient(145.55deg, hsl(175, 43%, 36%), #1e6d67); */
+}
+
+.process-btn:hover,
+.process-btn:focus,
+.process-btn:active {
+  padding: 0;
+  /* background: linear-gradient(145.55deg, #45aca3 13.81%, #1c9287 88.33%); */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+.process-btn.active {
+  padding: 0;
+  background: linear-gradient(145.55deg, #45aca3 13.81%, #1c9287 88.33%);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 18px;
+}
+
+.process-content {
+  margin-bottom: 48px;
+}
+
+.process-content h3 {
+  margin-bottom: 16px;
+}
+
+.process-content p {
+  margin-top: 16px;
+}
+
+.research-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.content.wireframes {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.wireframe-title {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.btn-previous-wireframe {
+  position: absolute;
+  top: 440px;
+  transform: translate(-80%, 0);
+  cursor: pointer;
+}
+
+.btn-next-wireframe {
+  position: absolute;
+  top: 440px;
+  left: 90%;
+  transform: translate(-20%, 0);
+  cursor: pointer;
+}
+
+.appIcon img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* FINAL SCREENS SECTION */
+
+.final-screens {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.final-screen {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.label {
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.final-section .logo {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.homely-logo {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+/* --------------------------- */
+/* Responsive area */
+/* ------------------------- */
+
+/* small screens */
+
+/* medium screens */
+@media only screen and (min-width: 426px) {
+  #challenge {
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+  }
+
+  .challenge-container {
+    display: flex;
+    gap: 12%;
+  }
+
+  .challenge-desc {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .process-btns {
+    gap: 12px;
+    background-color: unset;
+  }
+
+  #btn-research {
+    min-width: 137px;
+    background-image: url(../img/homely/case-study/btn_research-L.svg);
+  }
+
+  #btn-research:active,
+  #btn-research:hover,
+  #btn-research:focus {
+    background-image: url(../img/homely/case-study/btn_research-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  #btn-research.active {
+    background-image: url(../img/homely/case-study/btn_research-active-L.svg);
+    padding: 0;
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  #btn-wireframes {
+    min-width: 161px;
+    background-image: url(../img/homely/case-study/btn_wireframes-L.svg);
+  }
+
+  #btn-wireframes:active,
+  #btn-wireframes:hover,
+  #btn-wireframes:focus {
+    background-image: url(../img/homely/case-study/btn_wireframes-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  #btn-wireframes.active {
+    background-image: url(../img/homely/case-study/btn_wireframes-active-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  #btn-highFidelity {
+    min-width: 237px;
+    background-image: url(../img/homely/case-study/btn_high-fidelity-L.svg);
+  }
+
+  #btn-highFidelity:active,
+  #btn-highFidelity:hover,
+  #btn-highFidelity:focus {
+    background-image: url(../img/homely/case-study/btn_high-fidelity-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  #btn-highFidelity.active {
+    background-image: url(../img/homely/case-study/btn_high-fidelity-active-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  #btn-appIcon {
+    min-width: 140px;
+    background-image: url(../img/homely/case-study/btn_app-icon-L.svg);
+  }
+
+  #btn-appIcon:hover,
+  #btn-appIcon:focus,
+  #btn-appIcon:active {
+    background-image: url(../img/homely/case-study/btn_app-icon-hover-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  #btn-appIcon.active {
+    background-image: url(../img/homely/case-study/btn_app-icon-active-L.svg);
+    box-shadow: unset;
+    border-radius: unset;
+  }
+
+  .final-screens {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .final-screen {
+    width: 360px;
+  }
+
+  .homely-logo {
+    margin-top: 160px;
+    margin-bottom: 120px;
+  }
+}
+
+/* from laptop on - only for a few elements */
+
+@media only screen and (min-width: 768px) {
+  .small-only {
+    display: none;
+  }
+
+  #process-section {
+    min-height: 80vh;
+  }
+
+  .homely-hero picture {
+    display: none;
+  }
+
+  .intro {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background-color: hwb(0 100% 0% / 0.855);
+    padding: 20px 28px 40px 20px;
+
+    border-radius: 16px;
+  }
+
+  .homely-hero {
+    background-image: url(../img/homely/case-study/hero-image@3x.png);
+    background-size: cover;
+    background-position: 60% 40%;
+    background-repeat: no-repeat;
+    height: 720px;
+    max-width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .research-desc {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+/* large screens */
+@media only screen and (min-width: 1025px) {
+  .wireframes-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .content.wireframes {
+    padding-left: unset;
+    padding-right: unset;
+
+    --opacity: 1;
+  }
+
+  .content.wireframes:hover {
+    --opacity: 0;
+  }
+
+  .content.wireframes::before {
+    content: "Hover on a wireframe to see it at full opacity";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    z-index: 1;
+    opacity: var(--opacity);
+    transition: all 0.15s linear;
+  }
+
+  .content.wireframes .hidden {
+    display: block;
+    opacity: 100;
+    pointer-events: unset;
+    visibility: unset;
+  }
+
+  .content.wireframes .wireframe {
+    min-width: 340px;
+    opacity: 0.4;
+    transition: all 0.2s linear;
+  }
+
+  .content.wireframes .wireframe:hover {
+    opacity: 1;
+  }
+
+  .wireframe-title {
+    height: 60px;
+  }
+
+  .appIcon img {
+    padding-top: 4vh;
+  }
+
+  .appIcon p {
+    padding-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 600px;
+  }
+
+  .btn-previous-wireframe {
+    display: none;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .btn-next-wireframe {
+    display: none;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+  }
+}
