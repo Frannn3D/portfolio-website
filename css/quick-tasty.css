@@ -21,38 +21,6 @@ COLOURS
   color: #2d2d2d;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-cards {
-  display: flex;
-  gap: 16px;
-  align-items: stretch;
-  height: 649px;
-}
-
-.gap-36 {
-  gap: 36px;
-}
-
-.gap-32 {
-  gap: 36px;
-}
-
-.gap-20 {
-  gap: 20px;
-}
-
-.center-text {
-  text-align: center;
-}
-
 .responsive-section {
   padding: 44px 64px;
 }
@@ -66,168 +34,10 @@ COLOURS
   font-weight: 500;
 }
 
-/* HERO SECTION */
-.hero-section {
-  background-color: #323b52;
-}
-
-/* THE CHALLENGE SECTION */
-
-section#challenge {
-  margin-top: 140px;
-  margin-bottom: 120px;
-}
-
-#challenge h1 {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#challenge p {
-  padding: 0;
-  text-align: center;
-  width: 60%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 /* PROCESS SECTION */
-
-.process-section {
-  position: relative;
-  padding: 64px;
-}
 
 .process-section .process-cards .label :not(strong) {
   font-weight: 400;
-}
-
-#card1 .label {
-  background-color: #00626a;
-  color: #fff;
-  height: 100%;
-}
-
-#card1 .step-title {
-  color: #fff;
-}
-
-#card2 .label {
-  background-color: #83c5be;
-}
-
-#card3 .label {
-  background-color: #edf6f9;
-}
-
-#card4 .label {
-  background-color: #ffddd2;
-}
-
-#card5 .label {
-  background-color: #e7ac97;
-  color: #2d2d2d;
-}
-
-.process-card {
-  box-shadow: 0px 3px 3px #0000000d;
-  border: 1px solid #dedede;
-  border-radius: 16px;
-  background: transparent linear-gradient(135deg, #f3f3f61a 0%, #e6e6ee1a 100%)
-    0% 0% no-repeat padding-box;
-  min-width: 55px;
-}
-
-.process-card {
-  width: 684px;
-  min-height: 480px;
-  background: transparent linear-gradient(135deg, #f3f3f61a 0%, #e6e6ee1a 100%)
-    0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 3px #0000000d;
-  border: 1px solid #dedede;
-  border-radius: 16px;
-  overflow: hidden;
-  transition: all ease-in-out 0.4s;
-  color: #2d2d2d;
-}
-
-.process-card.closed {
-  width: 55px;
-}
-
-.process-card.closed .process-content {
-  /* opacity: 0;
-  visibility: hidden; */
-  display: none;
-}
-
-.step {
-  display: flex;
-  gap: 32px;
-}
-
-.process-number {
-  font-family: Work Sans, sans-serif;
-  font-weight: 600;
-  font-size: 56px;
-}
-
-.rotate-90 {
-  transform: rotate(90deg);
-}
-
-.label {
-  padding-top: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* height: 606px; */
-  width: 55px;
-  height: 100%;
-  cursor: pointer;
-}
-
-.content-step {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-
-.content-title {
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.step-title {
-  margin-top: 220px;
-  width: 450px;
-  text-align: left;
-  font-family: roboto, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #414057;
-}
-
-.process-content {
-  padding: 28px;
-}
-
-.process-content img {
-  display: block;
-}
-
-.grid-2col {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-}
-
-.grid-card2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
-  height: 100%;
 }
 
 .card2-text {
@@ -268,45 +78,6 @@ section#challenge {
   bottom: 20px;
 }
 
-/* NEEDS SECTION */
-
-.needs-section {
-  background-color: #f6f6f6;
-  padding: 64px;
-}
-
-.grid-needs {
-  display: grid;
-  grid-template-columns: 1fr 2.4fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  align-items: center;
-  gap: 32px;
-}
-
-.need-box {
-  background-color: #fbfbfb;
-  box-shadow: 0px 3px 12px #0000000d;
-  border-radius: 16px;
-  width: 100%;
-  padding: 20px 28px;
-  letter-spacing: 0.15px;
-  color: #2d2d2d;
-  font-weight: 400;
-}
-
-.need-box blockquote {
-  font-style: italic;
-  letter-spacing: 0.15px;
-  color: #323a30;
-  font-weight: normal;
-}
-
-.process-card > a {
-  text-decoration: unset;
-  color: unset;
-  font-weight: unset;
-}
-
 /* Responsive area */
 
 /* medium screens */
@@ -315,105 +86,16 @@ section#challenge {
     padding-left: unset;
     padding-right: unset;
   }
-
-  .process-section.h1024 {
-    height: unset;
-  }
-
-  .process-card {
-    min-height: unset;
-    width: unset;
-    max-height: 800px;
-    /* height: 600px; */
-  }
-
-  .flex-cards {
-    flex-direction: column;
-    height: unset;
-  }
-
-  .flex {
-    flex-direction: column;
-  }
-
-  .label {
-    flex-direction: row;
-    padding: 0 16px;
-    gap: 16px;
-    width: unset;
-    line-height: unset;
-    max-height: 72px;
-  }
-
-  .process-card.closed {
-    max-height: 72px;
-    width: unset;
-  }
-
-  .rotate-90 {
-    transform: unset;
-  }
-
-  .step-title {
-    margin-top: unset;
-    line-height: 1.1;
-  }
-
-  .grid-needs {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-  }
-
-  .needs-description {
-    margin-top: 60px;
-  }
-
-  .final-screens.mobile-only {
-    display: none;
-  }
-
-  .final-screens.mobile-only img {
-    max-width: unset;
-  }
 }
 
 /* small screens */
 @media only screen and (max-width: 600px) {
-  .grid-2col {
-    grid-template-columns: 1fr;
-  }
-
-  #challenge p {
-    width: unset;
-    padding: 0 20px;
-  }
-
-  .process-section,
-  .needs-section,
-  .responsive-section,
-  .final-screens-section {
-    padding: 40px 8px;
-    margin: 0px 0;
+  .hero-section {
+    background-color: unset;
   }
 
   .attribution {
     bottom: 0px;
-  }
-
-  .process-section {
-    padding-bottom: 80px;
-    margin-bottom: 8px;
-  }
-
-  .process-card {
-    max-height: 1000px;
-  }
-
-  .grid-card2 {
-    display: flex;
-    flex-direction: column;
   }
 
   .card2-image {
@@ -426,39 +108,7 @@ section#challenge {
     flex-direction: column;
   }
 
-  .needs-section {
-    padding-top: 40px;
-  }
-
-  .needs-description {
-    margin-top: 20px;
-  }
-
   .all-high-screens {
-    display: none;
-  }
-
-  .final-screens.mobile-only {
-    display: flex;
-    gap: 16px;
-    height: 575px;
-    overflow: scroll;
-  }
-}
-
-/* large screens */
-@media only screen and (min-width: 1024px) {
-  .hero-section {
-    background-color: unset;
-  }
-
-  #challenge p {
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .final-screens.mobile-only {
     display: none;
   }
 }
