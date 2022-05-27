@@ -1,6 +1,5 @@
 /* 
 
-
 COLOURS
  #323A30
  #FBFBFB
@@ -110,5 +109,12 @@ COLOURS
 
   .all-high-screens {
     display: none;
+  }
+}
+
+/* large screens */
+@media only screen and (min-width: 1024px) {
+  .hero-section {
+    background-color: unset;
   }
 }
