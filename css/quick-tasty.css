@@ -110,6 +110,14 @@ COLOURS
   .all-high-screens {
     display: none;
   }
+
+  .final-screens.mobile-only {
+    display: flex;
+    gap: 16px;
+    height: 575px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
 }
 
 /* large screens */

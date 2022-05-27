@@ -348,11 +348,4 @@ section#challenge {
   .needs-description {
     margin-top: 20px;
   }
-
-  .final-screens.mobile-only {
-    display: flex;
-    gap: 16px;
-    height: 575px;
-    overflow-x: scroll;
-  }
 }
