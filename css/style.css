@@ -858,6 +858,7 @@ picture .logo {
 
 .button:active {
   transform: scaleX(1);
+  transform: translate(-50%, 0px);
 }
 
 .button::after {
