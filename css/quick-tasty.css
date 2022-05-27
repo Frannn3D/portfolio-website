@@ -57,7 +57,7 @@ COLOURS
 .pain-points-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 40fr 60fr;
   gap: 36px;
 }
 
