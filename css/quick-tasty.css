@@ -89,10 +89,6 @@ COLOURS
 
 /* small screens */
 @media only screen and (max-width: 600px) {
-  .hero-section {
-    background-color: unset;
-  }
-
   .attribution {
     bottom: 0px;
   }
