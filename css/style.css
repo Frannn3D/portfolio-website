@@ -858,7 +858,6 @@ picture .logo {
 
 .button:active {
   transform: scaleX(1);
-  transform: translate(-50%, 0px);
 }
 
 .button::after {
@@ -1038,6 +1037,10 @@ picture .logo {
   .navtoggle.responsive li:nth-child(1) {
     left: 20px;
     display: inline-block;
+  }
+
+  .button:active {
+    transform: translate(-50%, 0px);
   }
 
   .spt-36 {
