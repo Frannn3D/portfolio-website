@@ -117,4 +117,14 @@ COLOURS
   .hero-section {
     background-color: unset;
   }
+
+  #challenge p {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .final-screens.mobile-only {
+    display: none;
+  }
 }

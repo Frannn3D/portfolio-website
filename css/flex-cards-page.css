@@ -288,7 +288,7 @@ section#challenge {
     display: flex;
     gap: 16px;
     height: 575px;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 }
 
@@ -354,19 +354,5 @@ section#challenge {
 
   .final-screens.mobile-only img {
     max-width: unset;
-  }
-}
-
-/* large screens */
-
-@media only screen and (min-width: 1024px) {
-  #challenge p {
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .final-screens.mobile-only {
-    display: none;
   }
 }
