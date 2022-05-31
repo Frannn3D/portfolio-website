@@ -1,25 +1,3 @@
-// console.log("Hi! Welcome to Francesca's Portfolio Site");
-// let cardsUp = false;
-// const process1El = document.querySelector("#process1");
-// const processCardsEl = document.querySelector(".process-cards");
-// const cardsEl = Array.from(document.querySelectorAll(".card"));
-
-// for (let i = 0; i < cardsEl.length; i++) {
-//   cardsEl[i].addEventListener("click", function(e){
-//     console.log("button pressed");
-//     if (cardsUp === false){
-//       processCardsEl.classList.add("active");
-//       cardsUp = true;
-//     }
-//     console.log(e);
-//     const cardPressed = e.path.find(item => item === "div#process");
-//     console.log(cardPressed);
-//   })
-// }
-
-// process1El.addEventListener("click", function(){
-// });
-
 function menuToggle() {
   var x = document.getElementById("myNavtoggle");
   if (x.className === "navtoggle") {
@@ -28,3 +6,39 @@ function menuToggle() {
     x.className = "navtoggle";
   }
 }
+
+// ------------------------------------
+// CAROUSEL SCRIPT
+
+function nextPicture(pictures, locIndexShown, pictureShown, showDots) {
+  if (locIndexShown >= 2) {
+    pictures[locIndexShown].classList.add("hidden");
+    locIndexShown = 0;
+    pictures[locIndexShown].classList.remove("hidden");
+    pictureShown = pictures[locIndexShown];
+  } else {
+    pictures[locIndexShown].classList.add("hidden");
+    locIndexShown += 1;
+    pictures[locIndexShown].classList.remove("hidden");
+    pictureShown = pictures[locIndexShown];
+  }
+  indexShown = locIndexShown; // save the local index to the global variable to pass it back
+}
+
+function previousPicture(pictures, locIndexShown, pictureShown, showDots) {
+  if (locIndexShown <= 0) {
+    pictures[locIndexShown].classList.add("hidden");
+    locIndexShown = 2;
+    pictures[locIndexShown].classList.remove("hidden");
+    pictureShown = pictures[locIndexShown];
+  } else {
+    console.log(locIndexShown);
+    pictures[locIndexShown].classList.add("hidden");
+    locIndexShown -= 1;
+    pictures[locIndexShown].classList.remove("hidden");
+    pictureShown = pictures[locIndexShown];
+  }
+  indexShown = locIndexShown; // save the local index to the global variable to pass it back
+}
+
+// ---------------------------- End of Carousel script
