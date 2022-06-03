@@ -77,6 +77,13 @@ COLOURS
   bottom: 20px;
 }
 
+.need-box blockquote {
+  font-style: italic;
+  letter-spacing: 0.15px;
+  color: #323a30;
+  font-weight: normal;
+}
+
 /* Responsive area */
 
 /* medium screens */
