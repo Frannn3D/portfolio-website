@@ -11,8 +11,7 @@ const processHifiScreens = document.querySelector(".process-content .highFidelit
 const processAppIcon = document.querySelector(".process-content .appIcon");
 
 let activeProcessBtn;
-let indexShown;
-indexShown = 0;
+let indexShown = 0;
 let touched = false;
 
 // Add interactions to the Design Process navigation buttons
@@ -58,10 +57,10 @@ processBtns.forEach((processBtn) => {
 //  Wireframe sub-section - code of the arrow buttons
 // Show next wireframe
 nextWireframeBtn.addEventListener("click", function () {
-  nextPicture(wireframes, indexShown, "false");
+  nextPicture(wireframes, indexShown, false);
 });
 
 // Show previous wireframe
 prevWireframeBtn.addEventListener("click", function () {
-  previousPicture(wireframes, indexShown, "false");
+  previousPicture(wireframes, indexShown, false);
 });
