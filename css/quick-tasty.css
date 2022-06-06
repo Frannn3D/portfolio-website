@@ -77,6 +77,32 @@ COLOURS
   bottom: 20px;
 }
 
+/* NEEDS SECTION */
+
+.needs-section {
+  background-color: var(--needs-section-bg-color);
+  padding: 64px;
+}
+
+.grid-needs {
+  display: grid;
+  grid-template-columns: 1fr 2.4fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  gap: 32px;
+}
+
+.need-box {
+  background-color: var(--needs-box-bg-color);
+  box-shadow: 0px 3px 12px #0000000d;
+  border-radius: 16px;
+  width: 100%;
+  padding: 20px 28px;
+  letter-spacing: 0.15px;
+  color: #2d2d2d;
+  font-weight: 400;
+}
+
 .need-box blockquote {
   font-style: italic;
   letter-spacing: 0.15px;
