@@ -1,9 +1,13 @@
 /* 
-
 COLOURS
  #323A30
  #FBFBFB
 -------------------------- */
+
+:root {
+  --needs-section-bg-color: #f6f6f6;
+  --needs-box-bg-color: #fbfbfb;
+}
 
 * {
   padding: 0;
