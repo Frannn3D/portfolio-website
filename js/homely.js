@@ -10,10 +10,8 @@ const processWireframes = document.querySelector(".process-content .wireframes")
 const processHifiScreens = document.querySelector(".process-content .highFidelity");
 const processAppIcon = document.querySelector(".process-content .appIcon");
 
-let wireframeShown = document.querySelector(".wireframe");
 let activeProcessBtn;
-let indexShown;
-indexShown = wireframes.findIndex((item) => item === wireframeShown);
+let indexShown = 0;
 let touched = false;
 
 // Add interactions to the Design Process navigation buttons
@@ -59,32 +57,10 @@ processBtns.forEach((processBtn) => {
 //  Wireframe sub-section - code of the arrow buttons
 // Show next wireframe
 nextWireframeBtn.addEventListener("click", function () {
-  if (indexShown >= 2) {
-    wireframes[indexShown].classList.add("hidden");
-    indexShown = 0;
-    wireframes[indexShown].classList.remove("hidden");
-    wireframeShown = wireframes[indexShown];
-  } else {
-    console.log(indexShown);
-    wireframes[indexShown].classList.add("hidden");
-    indexShown += 1;
-    wireframes[indexShown].classList.remove("hidden");
-    wireframeShown = wireframes[indexShown];
-  }
+  nextPicture(wireframes, indexShown, false);
 });
 
 // Show previous wireframe
 prevWireframeBtn.addEventListener("click", function () {
-  if (indexShown <= 0) {
-    wireframes[indexShown].classList.add("hidden");
-    indexShown = 2;
-    wireframes[indexShown].classList.remove("hidden");
-    wireframeShown = wireframes[indexShown];
-  } else {
-    console.log(indexShown);
-    wireframes[indexShown].classList.add("hidden");
-    indexShown -= 1;
-    wireframes[indexShown].classList.remove("hidden");
-    wireframeShown = wireframes[indexShown];
-  }
+  previousPicture(wireframes, indexShown, false);
 });

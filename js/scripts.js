@@ -1,25 +1,3 @@
-// console.log("Hi! Welcome to Francesca's Portfolio Site");
-// let cardsUp = false;
-// const process1El = document.querySelector("#process1");
-// const processCardsEl = document.querySelector(".process-cards");
-// const cardsEl = Array.from(document.querySelectorAll(".card"));
-
-// for (let i = 0; i < cardsEl.length; i++) {
-//   cardsEl[i].addEventListener("click", function(e){
-//     console.log("button pressed");
-//     if (cardsUp === false){
-//       processCardsEl.classList.add("active");
-//       cardsUp = true;
-//     }
-//     console.log(e);
-//     const cardPressed = e.path.find(item => item === "div#process");
-//     console.log(cardPressed);
-//   })
-// }
-
-// process1El.addEventListener("click", function(){
-// });
-
 function menuToggle() {
   var x = document.getElementById("myNavtoggle");
   if (x.className === "navtoggle") {
@@ -28,3 +6,63 @@ function menuToggle() {
     x.className = "navtoggle";
   }
 }
+
+// ------------------------------------
+// CAROUSEL SCRIPT
+
+function nextPicture(pictures, locIndexShown, showDots, dots) {
+  // check if the picture shown is the last one
+  if (locIndexShown >= pictures.length - 1) {
+    pictures[locIndexShown].classList.add("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.remove("dot-active");
+    }
+    locIndexShown = 0;
+    pictures[locIndexShown].classList.remove("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.add("dot-active");
+    }
+  } else {
+    // if it is not, then it will move to the next picture
+    pictures[locIndexShown].classList.add("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.remove("dot-active");
+    }
+    locIndexShown += 1;
+    pictures[locIndexShown].classList.remove("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.add("dot-active");
+    }
+  }
+  indexShown = locIndexShown; // save the local index to the global variable to pass it back
+}
+
+function previousPicture(pictures, locIndexShown, showDots, dots) {
+  // checks if the picture shown is already the first one -  if it is then it will go back to the last picture of the array
+  if (locIndexShown <= 0) {
+    pictures[locIndexShown].classList.add("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.remove("dot-active");
+    }
+    locIndexShown = pictures.length - 1;
+    pictures[locIndexShown].classList.remove("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.add("dot-active");
+    }
+  } else {
+    // if it is not, then it will go to the previous one
+    console.log(locIndexShown);
+    pictures[locIndexShown].classList.add("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.remove("dot-active");
+    }
+    locIndexShown -= 1;
+    pictures[locIndexShown].classList.remove("hidden");
+    if (showDots) {
+      dots[locIndexShown].classList.add("dot-active");
+    }
+  }
+  indexShown = locIndexShown; // save the local index to the global variable to pass it back
+}
+
+// ---------------------------- End of Carousel script
