@@ -122,6 +122,25 @@ COLOURS
     padding-left: unset;
     padding-right: unset;
   }
+
+  .grid-needs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+  }
+
+  .needs-description {
+    margin-top: 60px;
+  }
+
+  .final-screens.mobile-only {
+    display: none;
+  }
+
+  .final-screens.mobile-only img {
+    max-width: unset;
+  }
 }
 
 /* small screens */
@@ -150,6 +169,14 @@ COLOURS
     height: 575px;
     overflow-x: scroll;
     overflow-y: hidden;
+  }
+
+  .needs-section {
+    padding-top: 40px;
+  }
+
+  .needs-description {
+    margin-top: 20px;
   }
 }
 

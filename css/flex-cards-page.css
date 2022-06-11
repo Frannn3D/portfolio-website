@@ -256,25 +256,6 @@ section#challenge {
     margin-top: unset;
     line-height: 1.1;
   }
-
-  .grid-needs {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-  }
-
-  .needs-description {
-    margin-top: 60px;
-  }
-
-  .final-screens.mobile-only {
-    display: none;
-  }
-
-  .final-screens.mobile-only img {
-    max-width: unset;
-  }
 }
 
 /* small screens */
@@ -307,13 +288,5 @@ section#challenge {
   .grid-card2 {
     display: flex;
     flex-direction: column;
-  }
-
-  .needs-section {
-    padding-top: 40px;
-  }
-
-  .needs-description {
-    margin-top: 20px;
   }
 }
