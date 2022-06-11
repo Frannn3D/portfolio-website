@@ -387,6 +387,10 @@ h4 {
   visibility: hidden;
 }
 
+.display-none {
+  display: none;
+}
+
 /* Margin top to cover the header bar space */
 
 .mt-20 {
@@ -406,12 +410,12 @@ h4 {
   padding-top: 4px;
 }
 
-.pt-80 {
-  padding-top: 80px;
-}
-
 .pt-8 {
   padding-top: 8px;
+}
+
+.pt-16 {
+  padding-top: 16px;
 }
 
 .pt-18 {
@@ -422,8 +426,12 @@ h4 {
   padding-top: 20px;
 }
 
-.pt-16 {
-  padding-top: 16px;
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-80 {
+  padding-top: 80px;
 }
 
 .pt-140 {
