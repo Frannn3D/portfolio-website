@@ -6,7 +6,7 @@ let indexShown = 0;
 const showD = true;
 
 prevBtn.addEventListener("click", function () {
-  previousPicture(wireframes, indexShown);
+  previousPicture(wireframes, indexShown, true, dots);
 });
 
 nextBtn.addEventListener("click", function () {
